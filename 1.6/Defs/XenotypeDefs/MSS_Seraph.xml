@@ -40,7 +40,6 @@
       <li MayRequire="redmattis.bigsmall.core">BS_ConsumeSoulOnHit</li>
       <li MayRequire="redmattis.bigsmall.core">BS_AnomalousPsychicPower</li>
       <li MayRequire="redmattis.bigsmall.core">BS_EVA_Gene</li>
-      <li>Learning_Slow</li>
       <li>Hair_Grayless</li>
       <li MayRequire="redmattis.bigsmall.core">BS_MajesticBird_Mid</li>
     </genes>
