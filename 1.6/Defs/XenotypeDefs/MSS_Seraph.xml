@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>MSS_Seraph</defName>
+    <label>Seraph</label>
+    <description>An inexplicably powerful being filled with Angelic glory. Seraph's are capable of manipulating both mana and soul power to an extremely high level. People can't help but feel drawn to beings of such grace and beauty.</description>
+    <descriptionShort>A powerful magical entity.</descriptionShort>
+    <iconPath>Xenotypes/BS_Lilim</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Ageless</li>
+      <li MayRequire="sarg.alphagenes">AG_Foodless</li>
+      <li>DiseaseFree</li>
+      <li>PerfectImmunity</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Fast_TotalHealing</li>
+      <li>TotalHealing</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_ConsumeSoul</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_SoulPowerGreat</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_TrueForm_Angelic</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_TrulyAgeless</li>
+      <li MayRequire="sarg.alphagenes">AG_InnatePsylink</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Glamour</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_PsychicWarrior</li>
+      <li MayRequire="sarg.alphagenes">AG_PsychicAbility_Masterful</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_ExtremeMeditation</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_ExtremeEntropyCapacity</li>
+      <li>LowSleep</li>
+      <li>Robust</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_EverFertile</li>
+      <li MayRequire="sarg.alphagenes">AG_Beauty_Angelic</li>
+      <li>Hair_LongOnly</li>
+      <li MayRequire="lusty.helltakergenes">LM_Halo</li>
+      <li>Body_Standard</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_CreamHair</li>
+      <li MayRequire="sarg.alphagenes">AG_Hair_Golden</li>
+      <li>Skin_PaleYellow</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_VeryLightOrange</li>
+      <li MayRequire="redmattis.heaven">BS_AngelHalo</li>
+      <li MayRequire="sarg.alphagenes">AlphaGenes_ExoticOrganism</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_ConsumeSoulOnHit</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_AnomalousPsychicPower</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_EVA_Gene</li>
+      <li>Learning_Slow</li>
+      <li>Hair_Grayless</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_MajesticBird_Mid</li>
+    </genes>
+  </XenotypeDef>
+</Defs>
