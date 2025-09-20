@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>		
+			<li Class = "PatchOperationRemove">
+				<xpath>/Defs/FactionDef[defName="BotchJob_ProfanedFaction"]/permanentEnemyToEveryoneExcept</xpath>
+			</li>	
+			<li Class = "PatchOperationRemove">
+				<xpath>/Defs/FactionDef[defName="BotchJob_ProfanedFaction"]/permanentEnemy</xpath>
+			</li>	
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/FactionDef[defName="BotchJob_ProfanedFaction"]</xpath>
+				<value>
+					<naturalEnemy>true</naturalEnemy>
+    			</value>
+			</li>
+			<li Class = "PatchOperationRemove">
+				<xpath>/Defs/FactionDef[defName="VU_UndeadFaction"]/permanentEnemyToEveryoneExcept</xpath>
+			</li>	
+			<li Class = "PatchOperationRemove">
+				<xpath>/Defs/FactionDef[defName="VU_UndeadFaction"]/permanentEnemy</xpath>
+			</li>	
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/FactionDef[defName="VU_UndeadFaction"]</xpath>
+				<value>
+					<naturalEnemy>true</naturalEnemy>
+    			</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

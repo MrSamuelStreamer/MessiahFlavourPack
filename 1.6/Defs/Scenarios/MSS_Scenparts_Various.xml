@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <Defs>
     <ScenPartDef>
-        <defName>MSSFP_PursuingFaction_Goblins</defName>
-        <label>pursuers</label>
+        <defName>MSSFP_PursuingFaction_Inquisition</defName>
+        <label>Pursuing Inquisition</label>
         <category>Misc</category>
         <scenPartClass>MSSFP.Questing.ScenPart_Pursuers</scenPartClass>
         <maxUses>1</maxUses>
-        <preventRemovalOfFaction>Insect</preventRemovalOfFaction>
+        <preventRemovalOfFaction>HoraxCult</preventRemovalOfFaction>
         <modExtensions>
             <li Class="MSSFP.Questing.PursuersModExtension">
                 <gravEngineCheckInterval>-1</gravEngineCheckInterval>
-                <faction>BotchJob_DivineOrderFaction</faction>
+                <faction>HoraxCult</faction>
                 <raidArrivalMode>EdgeWalkIn</raidArrivalMode>
                 <alertPursuerThreatText>Pursuers</alertPursuerThreatText>
                 <alertPursuerThreatDescText>The elite warriors of the Eye are closing in on your location.</alertPursuerThreatDescText>

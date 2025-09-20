@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>		
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/TileMutatorDef[defName="AB_DerelictArchonexus"]/label</xpath>
+				<value>
+					<label>Juvenile Great Anima Tree</label>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/TileMutatorDef[defName="AB_DerelictArchonexus"]/description</xpath>
+				<value>
+					<description>Juvenile great anime trees can be found in this area. They are said to protect travellers from prying eyes...</description>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchotechTower"]/label</xpath>
+				<value>
+					<label>Great anima roots</label>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchotechTower"]/description</xpath>
+				<value>
+					<description>Spreading roots of the anime network below the ground. Each cluster has the potential to flourish into a great anime tree of its own.</description>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictMajorArchotechStructure"]/label</xpath>
+				<value>
+					<label>Great anima roots</label>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictMajorArchotechStructure"]/description</xpath>
+				<value>
+					<description>Spreading roots of the anime network below the ground. Each cluster has the potential to flourish into a great anime tree of its own.</description>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchonexusCore"]/label</xpath>
+				<value>
+					<label>Juvenile Great Anima Tree</label>
+				</value>
+			</li>
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchonexusCore"]/description</xpath>
+				<value>
+					<description>Enormous juvenile anima trees with incredible magical power. They have been harvested to near-extinction by spacefaring civilisations to exploit their enormous psychic potential.</description>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchonexusCore"]</xpath>
+				<value>
+					<deconstructible>false</deconstructible>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchonexusCore"]</xpath>
+				<value>
+					<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictMajorArchotechStructure"]</xpath>
+				<value>
+					<deconstructible>false</deconstructible>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictMajorArchotechStructure"]</xpath>
+				<value>
+					<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchotechTower"]</xpath>
+				<value>
+					<deconstructible>false</deconstructible>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AB_DerelictArchotechTower"]</xpath>
+				<value>
+					<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

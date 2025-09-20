@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>		
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AnimaObelisk"]/costList</xpath>
+				<value>
+					<costList>
+						<Gold>50</Gold>
+						<AB_RawSlime>5</AB_RawSlime>
+						<PsychicAmplifier>1</PsychicAmplifier>
+						<DankPyon_Amber>25</DankPyon_Amber>
+						<RF_Amethyst>15</RF_Amethyst>
+						<DV_Pyrinth>20</DV_Pyrinth>
+						<Mashed_Ashlands_VolcanicGlass>5</Mashed_Ashlands_VolcanicGlass>
+						<TWRL_Resource_PinkCrystal>5</TWRL_Resource_PinkCrystal>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -25,5 +25,9 @@
         <li>Ludeon.RimWorld.Odyssey</li>
         <li>redmattis.bigsmall.core</li>
         <li>redmattis.heaven</li>
+        <li>redmattis.undead</li>
+        <li>botchjob.profaned</li>
+        <li>sarg.alphabiomes</li>
+        <li>dimonsever000.animaobelisk.specific</li>
     </loadAfter>
 </ModMetaData>
