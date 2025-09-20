@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Defs>
+    <ScenPartDef>
+        <defName>MSSFP_PursuingFaction_Goblins</defName>
+        <label>pursuers</label>
+        <category>Misc</category>
+        <scenPartClass>MSSFP.Questing.ScenPart_Pursuers</scenPartClass>
+        <maxUses>1</maxUses>
+        <preventRemovalOfFaction>Insect</preventRemovalOfFaction>
+        <modExtensions>
+            <li Class="MSSFP.Questing.PursuersModExtension">
+                <gravEngineCheckInterval>-1</gravEngineCheckInterval>
+                <faction>BotchJob_DivineOrderFaction</faction>
+                <raidArrivalMode>EdgeWalkIn</raidArrivalMode>
+                <alertPursuerThreatText>Pursuers</alertPursuerThreatText>
+                <alertPursuerThreatDescText>The elite warriors of the Eye are closing in on your location.</alertPursuerThreatDescText>
+                <alertPursuerThreatCriticalText>Incoming Pursuers</alertPursuerThreatCriticalText>
+                <alertPursuerThreatCriticalDescText>The gaze of the eye is upon you, and they will not stop until you are destroyed.</alertPursuerThreatCriticalDescText>
+                <letterLabelPursuerThreat>Incoming Pursuers</letterLabelPursuerThreat>
+                <letterTextPursuerThreat>The Eye is almost upon your location. When it finds you it will send a massive force to kill you.\n\nGather your supplies, then flee!</letterTextPursuerThreat>
+            </li>
+        </modExtensions>
+    </ScenPartDef>
+</Defs>

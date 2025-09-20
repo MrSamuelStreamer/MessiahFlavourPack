@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>MSS_BabyPool</defName>
+    <label>Baby Pool - You Shouldn't See This</label>
+    <description>Genes that babies can spawn with randomly to add a little magical flavour. This is an automatic process. You shouldn't ever see this xenotype during regular gameplay and if you do, wowee, take what you can get. What a powerful wizard. Or terrible, because the conflicting genes will enable or disable randomly the first time they spawn.</description>
+    <descriptionShort>Genes for babies to be born with, shouldn't be seen during regular gameplay.</descriptionShort>
+    <iconPath>Xenotypes/BS_Grigori</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="sarg.alphagenes">AG_InnatePsylink</li>
+      <li MayRequire="crows.dragonbond">Crows_DragonBondGene</li>
+      <li MayRequire="sarg.alphagenes">AG_PsychicRemapping</li>
+      <li>PsychicAbility_Enhanced</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_EltexPsychic</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Glamour</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_PsychicWarrior</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_NaturalPsychic</li>
+      <li>PsychicAbility_Extreme</li>
+      <li MayRequire="sarg.alphagenes">AG_PsychicAbility_Masterful</li>
+      <li MayRequire="sarg.alphagenes">AG_PsychicSight</li>
+      <li>PsychicBonding</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_ExtremeMeditation</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_SwiftMeditation</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_HighEntropyCapacity</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_ExtremeEntropyCapacity</li>
+      <li MayRequire="vanillaracesexpanded.archon">VRE_PsychicAbility_MoreExtreme</li>
+      <li MayRequire="sarg.alphagenes">AlphaGenes_ExoticOrganism</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Archon</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Archotechist</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Chronopath</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Conflagrator</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Empath</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Frostshaper</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Harmonist</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Necropath</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Nightstalker</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Protector</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Skipmaster</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Staticlord</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Technomancer</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Warlord</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Wildspeaker</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Hemosage</li>
+      <li MayRequire="danzen.vpe.biotechintegration">Gene_Puppeteer</li>
+    </genes>
+  </XenotypeDef>
+</Defs>
