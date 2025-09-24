@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ESCP_Skyshards.Skyshards_ModSettings">
+		<ESCP_Skyshard_MinLevelGained>2</ESCP_Skyshard_MinLevelGained>
+		<ESCP_Skyshard_MaxLevelGained>10</ESCP_Skyshard_MaxLevelGained>
+		<ESCP_Skyshard_DisableSkillCap>True</ESCP_Skyshard_DisableSkillCap>
+	</ModSettings>
+</SettingsBlock>

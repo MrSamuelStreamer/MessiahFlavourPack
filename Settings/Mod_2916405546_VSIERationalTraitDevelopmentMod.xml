@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="VSIERationalTraitDevelopment.VSIERationalTraitDevelopmentSettings">
+		<randomSelectionInsteadOfUI>True</randomSelectionInsteadOfUI>
+		<maxCountOfTraitsOfPools>5</maxCountOfTraitsOfPools>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CM_Semi_Random_Research.SemiRandomResearchModSettings">
+		<allowManualReroll>Once</allowManualReroll>
+		<amountSelection>PerColonist</amountSelection>
+		<availableProjectCount>4</availableProjectCount>
+		<additionalProjectPerXColonists>4</additionalProjectPerXColonists>
+		<maxProjectCount>8</maxProjectCount>
+		<progressAddsChoice>Never</progressAddsChoice>
+		<forceLowestTechLevel>True</forceLowestTechLevel>
+		<restrictToFactionTechLevel>True</restrictToFactionTechLevel>
+		<allowOneHigherTechProject>True</allowOneHigherTechProject>
+		<experimentalAnomalySupport>True</experimentalAnomalySupport>
+	</ModSettings>
+</SettingsBlock>

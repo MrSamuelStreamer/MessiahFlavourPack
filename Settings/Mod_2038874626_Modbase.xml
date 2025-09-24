@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Analyzer.Settings">
+		<showMax>True</showMax>
+		<showAxis>False</showAxis>
+		<showGrid>False</showGrid>
+		<columnSettings>
+			<li>
+				<active>True</active>
+			</li>
+			<li>
+				<sortBy>Max</sortBy>
+				<active>True</active>
+				<order>1</order>
+			</li>
+			<li>
+				<sortBy>AvPc</sortBy>
+				<active>True</active>
+				<order>2</order>
+			</li>
+			<li>
+				<sortBy>CallsPu</sortBy>
+				<active>True</active>
+				<order>3</order>
+			</li>
+			<li>
+				<sortBy>Percent</sortBy>
+				<active>True</active>
+				<order>4</order>
+			</li>
+			<li>
+				<sortBy>Name</sortBy>
+				<active>True</active>
+				<order>999</order>
+			</li>
+			<li>
+				<sortBy>Calls</sortBy>
+				<order>6</order>
+			</li>
+			<li>
+				<sortBy>Total</sortBy>
+				<order>7</order>
+			</li>
+		</columnSettings>
+		<callsColour>RGBA(0.239, 0.784, 0.431, 1.000)</callsColour>
+		<dnspyPath />
+		<showMainTabIcon>False</showMainTabIcon>
+		<SavedPatches_Update />
+		<SavedPatches_Tick />
+	</ModSettings>
+</SettingsBlock>

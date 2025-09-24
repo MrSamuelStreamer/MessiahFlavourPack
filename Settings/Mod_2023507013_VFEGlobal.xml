@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="VEF.VFEGlobalSettings">
+		<toggablePatch>
+			<keys>
+				<li>Limiteachxenotypetoonlyhaveonepsycastgene:</li>
+				<li>HidecontaineditemsinMOstoragebuildings:</li>
+				<li>RemoveMedievalOverhaul'sStorageBuildings</li>
+			</keys>
+			<values>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+			</values>
+		</toggablePatch>
+		<disableCaching>False</disableCaching>
+		<randomStartsAsRandom>True</randomStartsAsRandom>
+		<hideRandomizeButtons>True</hideRandomizeButtons>
+		<enablePipeSystemNoStorageAlert>False</enablePipeSystemNoStorageAlert>
+		<weatherDamagesOptions>
+			<keys>
+				<li>VPE_Hurricane</li>
+			</keys>
+			<values>
+				<li>True</li>
+			</values>
+		</weatherDamagesOptions>
+	</ModSettings>
+</SettingsBlock>

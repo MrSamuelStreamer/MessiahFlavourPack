@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="FogColorChanger.FogColorChangerSettings">
+		<hue>0</hue>
+		<saturation>0.0365487412</saturation>
+		<value>0.317638338</value>
+	</ModSettings>
+</SettingsBlock>

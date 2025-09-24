@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="KeepConverting.KeepConvertingSettings">
+		<maxDistanceToTriggerAutoConvert>1000</maxDistanceToTriggerAutoConvert>
+		<skipWhenConversionRitualOffPenalty>True</skipWhenConversionRitualOffPenalty>
+	</ModSettings>
+</SettingsBlock>

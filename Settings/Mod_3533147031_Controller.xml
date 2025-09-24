@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Planets_Code.Core.Settings">
+		<factionGroupEmpire>True</factionGroupEmpire>
+		<factionGroupTribals>True</factionGroupTribals>
+		<odysseyForceOasisInOasisBiome>True</odysseyForceOasisInOasisBiome>
+		<factionGrouping>3.59607482</factionGrouping>
+		<showStoneTypes>True</showStoneTypes>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Immigrants.ImmigrantsModSettings">
+		<isEnabled>True</isEnabled>
+		<immigrantIntervalInDays>1</immigrantIntervalInDays>
+		<immigrantLetterThreshold>6</immigrantLetterThreshold>
+		<immigrantWaveChance>100</immigrantWaveChance>
+		<playerPrimaryIdeo>True</playerPrimaryIdeo>
+		<colonistLimit>False</colonistLimit>
+		<maxColonists>25</maxColonists>
+		<ancientSoldierOk>True</ancientSoldierOk>
+		<pioneerOk>True</pioneerOk>
+		<ogreOk>True</ogreOk>
+		<nobleOk>True</nobleOk>
+		<catOk>True</catOk>
+		<muffaloOk>True</muffaloOk>
+		<cowOk>True</cowOk>
+		<chickenOk>True</chickenOk>
+		<allowKids>True</allowKids>
+		<kidChance>10</kidChance>
+		<forceXeno>False</forceXeno>
+		<randomXeno>False</randomXeno>
+		<customXeno>False</customXeno>
+		<selectedXenotypeDefName>Baseliner</selectedXenotypeDefName>
+		<selectedCustomXenoName>None</selectedCustomXenoName>
+		<arriveSlave>False</arriveSlave>
+	</ModSettings>
+</SettingsBlock>

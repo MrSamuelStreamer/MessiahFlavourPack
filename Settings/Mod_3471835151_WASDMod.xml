@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="wasdedPawn.WASDModSettings">
+		<pawnSpeedGeneralMultiplier>0.623968184</pawnSpeedGeneralMultiplier>
+		<jobToilWASDedSpeed>2</jobToilWASDedSpeed>
+		<tileAffectorlMultiplier>0.00999999978</tileAffectorlMultiplier>
+		<mouseZoomMultiplier>0.46388796</mouseZoomMultiplier>
+		<mouseMaxZoom>50.040123</mouseMaxZoom>
+		<mouseMinZoom>4.96505976</mouseMinZoom>
+		<cameraFollowSpeed>0.028240975</cameraFollowSpeed>
+		<cursorSize>40</cursorSize>
+		<meleeSpeedMultiplier>3.97258663</meleeSpeedMultiplier>
+		<chosenPlaystyle>Arcade</chosenPlaystyle>
+		<canAimAtSelf>True</canAimAtSelf>
+		<applyArmExhaustion>False</applyArmExhaustion>
+	</ModSettings>
+</SettingsBlock>

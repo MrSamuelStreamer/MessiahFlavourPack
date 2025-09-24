@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CastleWallsExpanded.CastleWallsExpandedSettings">
+		<CastleWallLightingToggle>True</CastleWallLightingToggle>
+		<CastleDefenseLightingToggle>True</CastleDefenseLightingToggle>
+		<CastleGateLightingToggle>True</CastleGateLightingToggle>
+	</ModSettings>
+</SettingsBlock>

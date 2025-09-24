@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="WorldTechLevel.WorldTechLevelSettings">
+		<Overrides>
+			<keys>
+				<li>ThingDef:MeleeWeapon_Zeushammer</li>
+			</keys>
+			<values>
+				<li>Medieval</li>
+			</values>
+		</Overrides>
+		<FactionsExcluded />
+		<DevQuickTestWorldTechLevel>Medieval</DevQuickTestWorldTechLevel>
+	</ModSettings>
+</SettingsBlock>

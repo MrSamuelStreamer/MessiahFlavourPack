@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="QuickFast.Source.Settings">
+		<hairMeshScale>1.00999999</hairMeshScale>
+		<ChangeEquipSpeed>True</ChangeEquipSpeed>
+		<FlatRate>True</FlatRate>
+		<hairFilter />
+		<hatFilter />
+		<LayerVis>
+			<li>Overhead</li>
+		</LayerVis>
+		<HatHairCombo />
+	</ModSettings>
+</SettingsBlock>

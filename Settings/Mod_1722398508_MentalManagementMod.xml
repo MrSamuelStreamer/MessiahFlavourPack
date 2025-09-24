@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="DubsBreakMod.Settings">
+		<MinorLimit>-10</MinorLimit>
+		<MajorLimit>-15</MajorLimit>
+		<ExtremeLimit>-20</ExtremeLimit>
+	</ModSettings>
+</SettingsBlock>

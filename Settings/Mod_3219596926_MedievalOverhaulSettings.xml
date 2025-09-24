@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MedievalOverhaul.MedievalOverhaul_Settings">
+		<leatherChain>False</leatherChain>
+		<woodChain>False</woodChain>
+		<clothChain>False</clothChain>
+		<metalChain>False</metalChain>
+		<industrialJunk>True</industrialJunk>
+		<exostriderRemains>True</exostriderRemains>
+		<vanillaMine>True</vanillaMine>
+		<settingMode>
+			<keys />
+			<values />
+		</settingMode>
+		<lastSelectedTab>2</lastSelectedTab>
+		<refuelableTorch>True</refuelableTorch>
+	</ModSettings>
+</SettingsBlock>

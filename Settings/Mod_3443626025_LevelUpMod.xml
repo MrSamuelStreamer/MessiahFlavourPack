@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="LevelUp.LevelUpModSettings">
+		<MaxRandomLevel>1</MaxRandomLevel>
+		<LevellingMode>Simple Levelling</LevellingMode>
+		<HealthScalingMode>Simple Health</HealthScalingMode>
+	</ModSettings>
+</SettingsBlock>

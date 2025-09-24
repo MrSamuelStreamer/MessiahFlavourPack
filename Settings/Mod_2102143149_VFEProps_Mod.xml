@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="VFEProps.VFEProps_Settings">
+		<costMultiplier>0</costMultiplier>
+		<silverReturnMultiplier>0</silverReturnMultiplier>
+	</ModSettings>
+</SettingsBlock>

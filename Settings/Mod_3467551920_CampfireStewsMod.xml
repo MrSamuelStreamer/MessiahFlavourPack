@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CampfireStews.CampfireStewsSettings">
+		<CampfireStews_UseAltSpawnForWetPot>False</CampfireStews_UseAltSpawnForWetPot>
+		<CampfireStews_WetPotDaysToMature>0</CampfireStews_WetPotDaysToMature>
+		<CampfireStews_MakeableAtKitchenTable>False</CampfireStews_MakeableAtKitchenTable>
+		<CampfireStews_attemptVegetableVariety>False</CampfireStews_attemptVegetableVariety>
+		<CampfireStews_vegetablesToTrack>5</CampfireStews_vegetablesToTrack>
+		<CampfireStews_distanceBiasPerInstance>10</CampfireStews_distanceBiasPerInstance>
+		<CampfireStews_prioritizeRotting>True</CampfireStews_prioritizeRotting>
+		<CampfireStews_daysToRotThreshold>5</CampfireStews_daysToRotThreshold>
+		<CampfireStews_prioritizeProtein>False</CampfireStews_prioritizeProtein>
+	</ModSettings>
+</SettingsBlock>

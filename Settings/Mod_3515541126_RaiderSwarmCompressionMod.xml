@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MultiRaiders.RaiderSwarmCompressionSettings">
+		<ReplaceFractionWithFakes>0.512451649</ReplaceFractionWithFakes>
+		<MaxRealRaiders>20</MaxRealRaiders>
+	</ModSettings>
+</SettingsBlock>

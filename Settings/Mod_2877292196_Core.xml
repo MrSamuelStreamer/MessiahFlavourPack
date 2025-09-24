@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="YayoAnimation.YayoAniSettings">
+		<OnlyPlayer>True</OnlyPlayer>
+		<UpdateFrequencyTicks>2</UpdateFrequencyTicks>
+		<MaximumZoomLevel>Closest</MaximumZoomLevel>
+		<MechanoidWalk>False</MechanoidWalk>
+		<MechanoidJob>False</MechanoidJob>
+		<MechanoidCombat>False</MechanoidCombat>
+		<AnimalJob>False</AnimalJob>
+	</ModSettings>
+</SettingsBlock>

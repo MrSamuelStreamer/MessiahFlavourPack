@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Mashed_Ashlands.Mashed_Ashlands_ModSettings">
+		<Mashed_Ashlands_CliffRacerEnableTracker>False</Mashed_Ashlands_CliffRacerEnableTracker>
+		<Mashed_Ashlands_CliffRacerWildPopulation>5000</Mashed_Ashlands_CliffRacerWildPopulation>
+		<Mashed_Ashlands_EarthquakeDamageBuildingsNonPlayer>True</Mashed_Ashlands_EarthquakeDamageBuildingsNonPlayer>
+	</ModSettings>
+</SettingsBlock>

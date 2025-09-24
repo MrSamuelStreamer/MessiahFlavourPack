@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="OutfitStandsPlus.OutfitStandsPlusModSettings">
+		<RemoveMechanizedStands>True</RemoveMechanizedStands>
+		<RemoveMendingStands>True</RemoveMendingStands>
+	</ModSettings>
+</SettingsBlock>

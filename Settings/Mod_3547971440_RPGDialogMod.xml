@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="RPGDialog.RPGDialogSettings">
+		<openWindowOnEvent>False</openWindowOnEvent>
+		<typingSoundVolume>0.203199625</typingSoundVolume>
+		<storytellerNames>
+			<keys>
+				<li>UltimateStoryteller</li>
+			</keys>
+			<values>
+				<li>Dungeon Master</li>
+			</values>
+		</storytellerNames>
+		<customStorytellerTypingSounds>
+			<keys />
+			<values />
+		</customStorytellerTypingSounds>
+	</ModSettings>
+</SettingsBlock>

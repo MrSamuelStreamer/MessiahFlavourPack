@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="FacialAnimation.FacialAnimationModSettings">
+		<EnablePortraitAnimationInPortrait>True</EnablePortraitAnimationInPortrait>
+		<UpdateAnimationInPortraitInterval>60</UpdateAnimationInPortraitInterval>
+		<EnableAnimationsForNonOfTheAbove>False</EnableAnimationsForNonOfTheAbove>
+		<EnableFacialAnimationMainTab>False</EnableFacialAnimationMainTab>
+		<IgnoreEnableAnimationForRaceXenoTypeListAA />
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="GeneticDrift.GeneticDriftSettings">
+		<baselinersOnly>True</baselinersOnly>
+		<GeneSetInbuiltBaby>MSS_BabyPool</GeneSetInbuiltBaby>
+		<GeneSetTypeBaby>inbuilt</GeneSetTypeBaby>
+		<geneChancesBaby>1;0.2;0.04984206</geneChancesBaby>
+		<blacklistedXenotypesBaby />
+		<endoGeneSetInbuiltAdult>MSS_WizardPool</endoGeneSetInbuiltAdult>
+		<endoGeneSetTypeAdult>inbuilt</endoGeneSetTypeAdult>
+		<endogeneChancesAdult>1;0.2;0.04984206</endogeneChancesAdult>
+		<endoblacklistedXenotypesAdult />
+		<xenoGeneSetInbuiltAdult>MSS_WizardPool</xenoGeneSetInbuiltAdult>
+		<xenoGeneSetTypeAdult>inbuilt</xenoGeneSetTypeAdult>
+		<xenogeneChancesAdult>0.1038185;0.04984206;0</xenogeneChancesAdult>
+		<xenoblacklistedXenotypesAdult />
+	</ModSettings>
+</SettingsBlock>

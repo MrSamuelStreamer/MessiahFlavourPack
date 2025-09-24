@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="aRandomKiwi.RimThemes.Settings">
+		<curTheme>thale.medievalerarimtheme§Medieval</curTheme>
+		<dialogStacking>2</dialogStacking>
+		<disableMainVideoBg>True</disableMainVideoBg>
+		<forceVanillaVideoBgWhenNoVBG>True</forceVanillaVideoBgWhenNoVBG>
+		<lastVersionInfo>RimThemes NX rev10</lastVersionInfo>
+		<enableCentipedeClassicTheme>True</enableCentipedeClassicTheme>
+	</ModSettings>
+</SettingsBlock>

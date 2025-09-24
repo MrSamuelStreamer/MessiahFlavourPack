@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="DIgnoranceIsBliss.IgnoranceSettings">
+		<usePercentResearched>False</usePercentResearched>
+		<useFixedTechRange>True</useFixedTechRange>
+		<fixedRange>1~3</fixedRange>
+	</ModSettings>
+</SettingsBlock>

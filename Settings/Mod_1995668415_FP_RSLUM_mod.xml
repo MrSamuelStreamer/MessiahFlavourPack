@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="FP_RSLUM.FP_RSLUM_setting">
+		<FP_RSLUM_AnimalEXPPerTick>511</FP_RSLUM_AnimalEXPPerTick>
+		<FP_RSLUM_FlatStartingStat>True</FP_RSLUM_FlatStartingStat>
+		<FP_RSLUM_Startingstat_min>0</FP_RSLUM_Startingstat_min>
+		<FP_RSLUM_Startingstat_max>0</FP_RSLUM_Startingstat_max>
+		<FP_RSLUM_MaxLevel>100</FP_RSLUM_MaxLevel>
+	</ModSettings>
+</SettingsBlock>

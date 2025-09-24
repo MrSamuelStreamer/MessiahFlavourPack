@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ESCP_Birthsigns.BirthSigns_ModSettings">
+		<ESCP_BirthSigns_AllowDisabledRaces>True</ESCP_BirthSigns_AllowDisabledRaces>
+		<ESCP_BirthSigns_ChanceHasSign>0.100000001</ESCP_BirthSigns_ChanceHasSign>
+		<ESCP_BirthSigns_CurrentSetDef_String>MorrowRim_PassiveBirthsigns_RimWorld</ESCP_BirthSigns_CurrentSetDef_String>
+	</ModSettings>
+</SettingsBlock>

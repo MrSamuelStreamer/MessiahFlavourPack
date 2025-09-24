@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TransparentThings.TransparentThingsSettings">
+		<enableTreeTransparency>True</enableTreeTransparency>
+	</ModSettings>
+</SettingsBlock>

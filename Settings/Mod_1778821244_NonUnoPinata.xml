@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="NonUnoPinata.Settings">
+		<strip_smeltable>False</strip_smeltable>
+		<allow_cremate_nonburnable>True</allow_cremate_nonburnable>
+		<corpse_display_equipment>False</corpse_display_equipment>
+		<nonplayer_downed_drop_equipment>True</nonplayer_downed_drop_equipment>
+		<nonplayer_downed_drop_inventory>True</nonplayer_downed_drop_inventory>
+		<player_killed_drop_equipment>True</player_killed_drop_equipment>
+		<player_killed_drop_inventory>True</player_killed_drop_inventory>
+		<nonplayer_killed_drop_equipment>True</nonplayer_killed_drop_equipment>
+		<nonplayer_killed_drop_inventory>True</nonplayer_killed_drop_inventory>
+	</ModSettings>
+</SettingsBlock>

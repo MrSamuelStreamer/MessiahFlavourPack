@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="WalkTheWorld.WalkTheWorldModSettings">
+		<initialized>True</initialized>
+		<mutatorsToDeleteNames>
+			<li>AncientGarrison</li>
+			<li>AncientWarehouse</li>
+			<li>AncientChemfuelRefinery</li>
+			<li>AncientInfestedSettlement</li>
+			<li>AncientLaunchSite</li>
+			<li>AncientRuins</li>
+			<li>AncientRuins_Frozen</li>
+			<li>AncientQuarry</li>
+			<li>AncientSmokeVent</li>
+			<li>AncientToxVent</li>
+			<li>AncientHeatVent</li>
+			<li>AbandonedColonyTribal</li>
+			<li>AbandonedColonyOutlander</li>
+			<li>Stockpile</li>
+			<li>AncientUplink</li>
+			<li>AB_AncientFreezingVent</li>
+			<li>AB_AncientGreyPallVent</li>
+			<li>AB_AncientBloodRainVent</li>
+			<li>AB_AncientDeathPallVent</li>
+			<li>Mashed_Ashlands_AncientLavaFlow</li>
+		</mutatorsToDeleteNames>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="PauseOtherSettlementsSimulation.PauseOtherSettlementsSimulationSettings">
+		<settlementExpandedStates>
+			<keys />
+			<values />
+		</settlementExpandedStates>
+		<knownSettlements>
+			<li>
+				<tile>5434</tile>
+				<name>Colony</name>
+			</li>
+		</knownSettlements>
+	</ModSettings>
+</SettingsBlock>

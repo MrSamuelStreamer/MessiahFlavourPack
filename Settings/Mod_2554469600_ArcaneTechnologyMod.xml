@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="DArcaneTechnology.ArcaneTechnologySettings">
+		<usePercentResearched>False</usePercentResearched>
+		<percentResearchNeeded>0.0500000007</percentResearchNeeded>
+		<useActualTechLevel>True</useActualTechLevel>
+		<minToRestrict>Industrial</minToRestrict>
+		<exemptFromWealthCalculation>True</exemptFromWealthCalculation>
+	</ModSettings>
+</SettingsBlock>

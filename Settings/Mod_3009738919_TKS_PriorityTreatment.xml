@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TKS_PriorityTreatment.TKS_PriorityTreatmentSettings">
+		<includeSickness>True</includeSickness>
+		<wakeUpToTend>True</wakeUpToTend>
+		<allowEating>True</allowEating>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CustomPortraits.CustomPortraitsModSettings">
+		<scaleSize>2.62871432</scaleSize>
+		<offsetX>-0.00239506201</offsetX>
+		<offsetZ>-0.0531769171</offsetZ>
+		<portraitScaleX>92</portraitScaleX>
+		<nlCustomPortraitOffsetDict>
+			<keys>
+				<li>BS_HumanoidWithWings</li>
+				<li>Human</li>
+			</keys>
+			<values>
+				<li />
+				<li>
+					<scaleSize>1.00600088</scaleSize>
+					<offsetX>-0.00709825242</offsetX>
+					<offsetZ>0.0182929784</offsetZ>
+				</li>
+			</values>
+		</nlCustomPortraitOffsetDict>
+	</ModSettings>
+</SettingsBlock>

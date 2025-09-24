@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="IAintBuildingThat.Settings">
+		<hiddenBuildables>
+			<li>AB_ExoticDoor</li>
+			<li>AB_ExoticWall</li>
+			<li>AB_ExoticColumn</li>
+			<li>MSSFP_CuckChair</li>
+		</hiddenBuildables>
+	</ModSettings>
+</SettingsBlock>

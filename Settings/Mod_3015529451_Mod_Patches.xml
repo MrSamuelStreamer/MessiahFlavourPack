@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MO_Patches.ModSettings_MOPatches">
+		<experimental_patches>True</experimental_patches>
+		<settingMode>
+			<keys />
+			<values />
+		</settingMode>
+	</ModSettings>
+</SettingsBlock>
