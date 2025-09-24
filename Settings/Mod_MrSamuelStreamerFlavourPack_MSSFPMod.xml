@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MSSFP.Settings">
+		<EnableWanderDelayModification>True</EnableWanderDelayModification>
+		<WanderDelayTicks>192</WanderDelayTicks>
+		<MonitoredSpeeds>
+			<li>Paused</li>
+			<li>Normal</li>
+		</MonitoredSpeeds>
+		<DaysForOutpostFission>15</DaysForOutpostFission>
+	</ModSettings>
+</SettingsBlock>

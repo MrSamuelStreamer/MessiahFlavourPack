@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MutatorWorldIcons.MutatorWorldIconsModSettings">
+		<iconSizeModifier>1.49957395</iconSizeModifier>
+		<visibilityZoomThreshold>Far</visibilityZoomThreshold>
+	</ModSettings>
+</SettingsBlock>
