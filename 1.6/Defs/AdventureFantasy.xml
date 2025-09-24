@@ -1,0 +1,2185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ModlistQuickstart.ModlistDef>
+		<defName>AdventureFantasy</defName>
+		<modlistName>Adventure Fantasy</modlistName>
+		<saveFileName>AdventureFantasy.rws</saveFileName>
+		<configVersion>1</configVersion>
+		<mods>
+			<li>
+				<Name>Prepatcher</Name>
+				<PackageId>jikulopo.prepatcher</PackageId>
+				<FileId>3563469557</FileId>
+			</li>
+			<li>
+				<Name>Harmony</Name>
+				<PackageId>brrainz.harmony</PackageId>
+				<FileId>2009463077</FileId>
+			</li>
+			<li>
+				<Name>Better Stacktraces</Name>
+				<PackageId>aleksey.betterstacktraces</PackageId>
+				<FileId>3541579129</FileId>
+			</li>
+			<li>
+				<Name>Core</Name>
+				<PackageId>ludeon.rimworld</PackageId>
+			</li>
+			<li>
+				<Name>Royalty</Name>
+				<PackageId>ludeon.rimworld.royalty</PackageId>
+			</li>
+			<li>
+				<Name>Ideology</Name>
+				<PackageId>ludeon.rimworld.ideology</PackageId>
+			</li>
+			<li>
+				<Name>Biotech</Name>
+				<PackageId>ludeon.rimworld.biotech</PackageId>
+			</li>
+			<li>
+				<Name>Anomaly</Name>
+				<PackageId>ludeon.rimworld.anomaly</PackageId>
+			</li>
+			<li>
+				<Name>Odyssey</Name>
+				<PackageId>ludeon.rimworld.odyssey</PackageId>
+			</li>
+			<li>
+				<Name>Cherry Picker</Name>
+				<PackageId>owlchemist.cherrypicker</PackageId>
+				<FileId>3521312241</FileId>
+			</li>
+			<li>
+				<Name>Adaptive Storage Framework</Name>
+				<PackageId>adaptive.storage.framework</PackageId>
+				<FileId>3033901359</FileId>
+			</li>
+			<li>
+				<Name>Big and Small - Framework</Name>
+				<PackageId>redmattis.betterprerequisites</PackageId>
+				<FileId>2925432336</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Expanded Framework</Name>
+				<PackageId>oskarpotocki.vanillafactionsexpanded.core</PackageId>
+				<FileId>2023507013</FileId>
+			</li>
+			<li>
+				<Name>Adaptive Primitive Storage</Name>
+				<PackageId>adaptive.primitivestorage</PackageId>
+				<FileId>3400037215</FileId>
+			</li>
+			<li>
+				<Name>Adaptive Simple Storage</Name>
+				<PackageId>adaptive.simplestorage</PackageId>
+				<FileId>3297307747</FileId>
+			</li>
+			<li>
+				<Name>Walk the World</Name>
+				<PackageId>addvans.walktheworld</PackageId>
+				<FileId>3546716725</FileId>
+			</li>
+			<li>
+				<Name>WASDed Pawn</Name>
+				<PackageId>addvans.wasdedpawn</PackageId>
+				<FileId>3471835151</FileId>
+			</li>
+			<li>
+				<Name>Doormats</Name>
+				<PackageId>alias.doormats</PackageId>
+				<FileId>3239838811</FileId>
+			</li>
+			<li>
+				<Name>Help me build</Name>
+				<PackageId>andromeda.helpmebuild</PackageId>
+				<FileId>3534699220</FileId>
+			</li>
+			<li>
+				<Name>ATH's Ideo Colors Pallette</Name>
+				<PackageId>anthitei.athsideocolorpalette.colors</PackageId>
+				<FileId>3069754400</FileId>
+			</li>
+			<li>
+				<Name>ATH's Styleable Framework</Name>
+				<PackageId>anthitei.athsstyleableframework.style</PackageId>
+				<FileId>3016405872</FileId>
+			</li>
+			<li>
+				<Name>Camping Tent</Name>
+				<PackageId>aoba.tent</PackageId>
+				<FileId>2407128339</FileId>
+			</li>
+			<li>
+				<Name>Colonist Tech Background</Name>
+				<PackageId>aossi.techbackground</PackageId>
+				<FileId>1264778930</FileId>
+			</li>
+			<li>
+				<Name>RimSaves</Name>
+				<PackageId>arandomkiwi.rimsaves</PackageId>
+				<FileId>1713367505</FileId>
+			</li>
+			<li>
+				<Name>RimThemes</Name>
+				<PackageId>arandomkiwi.rimthemes</PackageId>
+				<FileId>1668983184</FileId>
+			</li>
+			<li>
+				<Name>Performance - Slower Pawn Tick Rate</Name>
+				<PackageId>arkymn.slowerpawntickrate</PackageId>
+				<FileId>3524116050</FileId>
+			</li>
+			<li>
+				<Name>Semi Random Research: Progression Fork</Name>
+				<PackageId>arodoid.semirandomprogression</PackageId>
+				<FileId>3505290557</FileId>
+			</li>
+			<li>
+				<Name>Simple Apparel Recycling</Name>
+				<PackageId>arvkus.simplerecycling</PackageId>
+				<FileId>3239309389</FileId>
+			</li>
+			<li>
+				<Name>Medieval Backstories No HAR</Name>
+				<PackageId>assassinsbro.medievalbackstoriesnohar</PackageId>
+				<FileId>3128454510</FileId>
+			</li>
+			<li>
+				<Name>Auto links</Name>
+				<PackageId>automatic.autolinks</PackageId>
+				<FileId>2059389912</FileId>
+			</li>
+			<li>
+				<Name>Bionic icons</Name>
+				<PackageId>automatic.bionicicons</PackageId>
+				<FileId>1677616980</FileId>
+			</li>
+			<li>
+				<Name>Non uno Pinata (don't drop items)</Name>
+				<PackageId>avilmask.nonunopinata</PackageId>
+				<FileId>1778821244</FileId>
+			</li>
+			<li>
+				<Name>Faction Customizer</Name>
+				<PackageId>azravos.factioncustomizer</PackageId>
+				<FileId>3336572602</FileId>
+			</li>
+			<li>
+				<Name>Meat on a Stick</Name>
+				<PackageId>badoaks.meatonastick</PackageId>
+				<FileId>3435027361</FileId>
+			</li>
+			<li>
+				<Name>Stop, Drop, And Roll! [BAL]</Name>
+				<PackageId>balistafreak.stopdropandroll</PackageId>
+				<FileId>2362707956</FileId>
+			</li>
+			<li>
+				<Name>Full Gun Sell Price</Name>
+				<PackageId>bdew.fullgunsellprice</PackageId>
+				<FileId>1575464750</FileId>
+			</li>
+			<li>
+				<Name>Goblins of the Rim</Name>
+				<PackageId>bean.customxenotypes.goblinsoftherim</PackageId>
+				<FileId>3237397753</FileId>
+			</li>
+			<li>
+				<Name>Medieval Melee Sounds</Name>
+				<PackageId>bonible.medievalmeleesounds</PackageId>
+				<FileId>2962064646</FileId>
+			</li>
+			<li>
+				<Name>Ancient Armory</Name>
+				<PackageId>botchjob.ancientarmory</PackageId>
+				<FileId>2972831749</FileId>
+			</li>
+			<li>
+				<Name>Hard Times: Hair and Beards</Name>
+				<PackageId>botchjob.hthair</PackageId>
+				<FileId>3092175321</FileId>
+			</li>
+			<li>
+				<Name>Achtung!</Name>
+				<PackageId>brrainz.achtung</PackageId>
+				<FileId>730936602</FileId>
+			</li>
+			<li>
+				<Name>Bradson's Main Button Icons (Forked + Expanded)</Name>
+				<PackageId>bs.mbifvte</PackageId>
+				<FileId>3532359201</FileId>
+			</li>
+			<li>
+				<Name>Crowns and Regalia</Name>
+				<PackageId>canon.crownsandregalia</PackageId>
+				<FileId>2585571655</FileId>
+			</li>
+			<li>
+				<Name>Positive Connections</Name>
+				<PackageId>cem.positiveconnections</PackageId>
+				<FileId>3003882069</FileId>
+			</li>
+			<li>
+				<Name>Better Trees</Name>
+				<PackageId>chaoticenrico.bettertrees</PackageId>
+				<FileId>3539609975</FileId>
+			</li>
+			<li>
+				<Name>Fog Color Changer</Name>
+				<PackageId>chaoticenrico.fogcolorchanger</PackageId>
+				<FileId>3492647454</FileId>
+			</li>
+			<li>
+				<Name>Childrens' Traits Affect Learning</Name>
+				<PackageId>childrentraitsaffectlearning.mod</PackageId>
+				<FileId>2977564653</FileId>
+			</li>
+			<li>
+				<Name>What's That Mod</Name>
+				<PackageId>co.uk.epicguru.whatsthatmod</PackageId>
+				<FileId>2258431182</FileId>
+			</li>
+			<li>
+				<Name>Architect Icons</Name>
+				<PackageId>com.bymarcin.architecticons</PackageId>
+				<FileId>1195427067</FileId>
+			</li>
+			<li>
+				<Name>Medieval Transport</Name>
+				<PackageId>crows.medievaltransport</PackageId>
+				<FileId>3560507606</FileId>
+			</li>
+			<li>
+				<Name>Arcane Technology</Name>
+				<PackageId>dame.arcanetechnology</PackageId>
+				<FileId>2554469600</FileId>
+			</li>
+			<li>
+				<Name>Ignorance Is Bliss</Name>
+				<PackageId>dame.ignorance</PackageId>
+				<FileId>2554423472</FileId>
+			</li>
+			<li>
+				<Name>Quality Colors (Continued)</Name>
+				<PackageId>dawnsglow.qualcolor</PackageId>
+				<FileId>3513846773</FileId>
+			</li>
+			<li>
+				<Name>Human Pregnancy Duration Settings</Name>
+				<PackageId>daysleep.humanpregnancyduration</PackageId>
+				<FileId>2880967245</FileId>
+			</li>
+			<li>
+				<Name>Ritual Size Attenuation</Name>
+				<PackageId>delmaintweaks.ritualsizeattenuation</PackageId>
+				<FileId>3262033797</FileId>
+			</li>
+			<li>
+				<Name>Epochs - Incense</Name>
+				<PackageId>det.epochsincense</PackageId>
+				<FileId>3072579620</FileId>
+			</li>
+			<li>
+				<Name>Epochs - Pottery</Name>
+				<PackageId>det.epochspottery</PackageId>
+				<FileId>3092351095</FileId>
+			</li>
+			<li>
+				<Name>Epochs - Pyrinth</Name>
+				<PackageId>det.epochspyrinth</PackageId>
+				<FileId>3336544632</FileId>
+			</li>
+			<li>
+				<Name>Epochs - Tallow</Name>
+				<PackageId>det.epochstallow</PackageId>
+				<FileId>3502180016</FileId>
+			</li>
+			<li>
+				<Name>Better autocasting for Vanilla Psycasts Expanded</Name>
+				<PackageId>dev.tobot.vpe.betterautocast</PackageId>
+				<FileId>3199585285</FileId>
+			</li>
+			<li>
+				<Name>Cybranian - Anima Obelisk</Name>
+				<PackageId>dimonsever000.animaobelisk.specific</PackageId>
+				<FileId>2614248835</FileId>
+			</li>
+			<li>
+				<Name>Cybranian - Rim Languages</Name>
+				<PackageId>dimonsever000.factionlanguages</PackageId>
+				<FileId>3450332059</FileId>
+			</li>
+			<li>
+				<Name>Cybranian - Ideology Virtues</Name>
+				<PackageId>dimonsever000.ideologyvirtues</PackageId>
+				<FileId>3459205505</FileId>
+			</li>
+			<li>
+				<Name>No Forced Slowdown</Name>
+				<PackageId>dingo.noforcedslowdown</PackageId>
+				<FileId>1419593453</FileId>
+			</li>
+			<li>
+				<Name>Level This! (Continued)</Name>
+				<PackageId>dingzhen.levelthis</PackageId>
+				<FileId>3443626025</FileId>
+			</li>
+			<li>
+				<Name>Way Better Romance</Name>
+				<PackageId>divinederivative.romance</PackageId>
+				<FileId>2877731755</FileId>
+			</li>
+			<li>
+				<Name>No Job Authors</Name>
+				<PackageId>doug.nojobauthors</PackageId>
+				<FileId>2009825774</FileId>
+			</li>
+			<li>
+				<Name>Door Mat</Name>
+				<PackageId>dracoix.doormat.r12a</PackageId>
+				<FileId>1505423207</FileId>
+			</li>
+			<li>
+				<Name>Dubs Apparel Tweaks</Name>
+				<PackageId>dubwise.dubsappareltweaks</PackageId>
+				<FileId>2296697286</FileId>
+			</li>
+			<li>
+				<Name>Dubs Break Mod</Name>
+				<PackageId>dubwise.dubsbreakmod</PackageId>
+				<FileId>1722398508</FileId>
+			</li>
+			<li>
+				<Name>Dubs Mint Menus</Name>
+				<PackageId>dubwise.dubsmintmenus</PackageId>
+				<FileId>1446523594</FileId>
+			</li>
+			<li>
+				<Name>Dub's Paint Shop</Name>
+				<PackageId>dubwise.dubspaintshop</PackageId>
+				<FileId>1579516669</FileId>
+			</li>
+			<li>
+				<Name>Dubs Performance Analyzer</Name>
+				<PackageId>dubwise.dubsperformanceanalyzer.steam</PackageId>
+				<FileId>2038874626</FileId>
+			</li>
+			<li>
+				<Name>Almost There! Fork</Name>
+				<PackageId>duz.almosttherefork</PackageId>
+				<FileId>3515165298</FileId>
+			</li>
+			<li>
+				<Name>Blindsight suffers no Unnatural Darkness</Name>
+				<PackageId>emitbreaker.blindnessunnaturaldarkness</PackageId>
+				<FileId>3258096951</FileId>
+			</li>
+			<li>
+				<Name>Erin's Baldur's Gate 3 Hairs</Name>
+				<PackageId>erin.bg3.hair</PackageId>
+				<FileId>3069933015</FileId>
+			</li>
+			<li>
+				<Name>Erin's Final Fantasy Animals</Name>
+				<PackageId>erin.ffanimals</PackageId>
+				<FileId>2877589761</FileId>
+			</li>
+			<li>
+				<Name>Erin's Hairstyles 2</Name>
+				<PackageId>erin.hair2</PackageId>
+				<FileId>2849477421</FileId>
+			</li>
+			<li>
+				<Name>RPG Dialog</Name>
+				<PackageId>esvn.rpgdialog</PackageId>
+				<FileId>3547971440</FileId>
+			</li>
+			<li>
+				<Name>Better Workbench Management</Name>
+				<PackageId>falconne.bwm</PackageId>
+				<FileId>935982361</FileId>
+			</li>
+			<li>
+				<Name>Fertility scale with lifespan</Name>
+				<PackageId>farmerjoe.fertilitylifespanthing</PackageId>
+				<FileId>3452215269</FileId>
+			</li>
+			<li>
+				<Name>PawnTargetFix</Name>
+				<PackageId>fed1splay.pawntargetfix</PackageId>
+				<FileId>2014789938</FileId>
+			</li>
+			<li>
+				<Name>Ferny's Easy Caravan Formation</Name>
+				<PackageId>ferny.easycaravanformation</PackageId>
+				<FileId>3165744287</FileId>
+			</li>
+			<li>
+				<Name>ReplaceLib</Name>
+				<PackageId>ferny.replacelib</PackageId>
+				<FileId>3417393194</FileId>
+			</li>
+			<li>
+				<Name>RPG Style Level Up Mod</Name>
+				<PackageId>flashpoint55.rpgstylelevelupmod</PackageId>
+				<FileId>1995668415</FileId>
+			</li>
+			<li>
+				<Name>[FSF] Pose For Me</Name>
+				<PackageId>frozensnowfox.poseforme</PackageId>
+				<FileId>1932628728</FileId>
+			</li>
+			<li>
+				<Name>Blood Animations</Name>
+				<PackageId>fuu.bloodanimations</PackageId>
+				<FileId>3228047321</FileId>
+			</li>
+			<li>
+				<Name>Medieval Tool Cabinet (Continued)</Name>
+				<PackageId>gaon.lowtoolcabinet</PackageId>
+				<FileId>3326055369</FileId>
+			</li>
+			<li>
+				<Name>Destroy Item</Name>
+				<PackageId>garwel.destroyitem</PackageId>
+				<FileId>2423311270</FileId>
+			</li>
+			<li>
+				<Name>Medieval Coastal Outfits</Name>
+				<PackageId>gerrymon.mco</PackageId>
+				<FileId>3483685923</FileId>
+			</li>
+			<li>
+				<Name>Tribal Ideology Icons</Name>
+				<PackageId>ghost.tribalicons</PackageId>
+				<FileId>3083595998</FileId>
+			</li>
+			<li>
+				<Name>Castle Walls Reborn</Name>
+				<PackageId>gideon.castlewalls</PackageId>
+				<FileId>3256542892</FileId>
+			</li>
+			<li>
+				<Name>Gerrymon's Erotic Style</Name>
+				<PackageId>gm.erotic.style</PackageId>
+				<FileId>3273776545</FileId>
+			</li>
+			<li>
+				<Name>Ultimate Storyteller [1.4-1.6]</Name>
+				<PackageId>gold.ultimatestoryteller</PackageId>
+				<FileId>2887952810</FileId>
+			</li>
+			<li>
+				<Name>Integrated Creep Joiners</Name>
+				<PackageId>grillmaster.integratedcreepjoiners</PackageId>
+				<FileId>3233429182</FileId>
+			</li>
+			<li>
+				<Name>Health Display</Name>
+				<PackageId>gt.sam.healthdisplay</PackageId>
+				<FileId>3522897532</FileId>
+			</li>
+			<li>
+				<Name>Custom Quest Framework</Name>
+				<PackageId>hailuan.customquestframework</PackageId>
+				<FileId>2978572782</FileId>
+			</li>
+			<li>
+				<Name>I will be back</Name>
+				<PackageId>hailuan.iwbb</PackageId>
+				<FileId>3400259397</FileId>
+			</li>
+			<li>
+				<Name>Misc. Training</Name>
+				<PackageId>haplo.miscellaneous.training</PackageId>
+				<FileId>717575199</FileId>
+			</li>
+			<li>
+				<Name>[HRK] Medieval deathrest coffin</Name>
+				<PackageId>harkon.biotechaddon.medievaldeathrestcoffin</PackageId>
+				<FileId>2881104575</FileId>
+			</li>
+			<li>
+				<Name>Floors Are (Absolutely) Worthless</Name>
+				<PackageId>hawkwood.floorsarealmostworthless</PackageId>
+				<FileId>2960126462</FileId>
+			</li>
+			<li>
+				<Name>Hunting Traps</Name>
+				<PackageId>hazn.huntingtraps</PackageId>
+				<FileId>3219487356</FileId>
+			</li>
+			<li>
+				<Name>Children Learn on Caravan</Name>
+				<PackageId>heatherathebyne.childrenlearnoncaravan</PackageId>
+				<FileId>3497730368</FileId>
+			</li>
+			<li>
+				<Name>Search Option</Name>
+				<PackageId>hellrevenger.searchoption</PackageId>
+				<FileId>3508618083</FileId>
+			</li>
+			<li>
+				<Name>Chemfuel Retextured : For Medieval and Tribal</Name>
+				<PackageId>hexacon.chemretext</PackageId>
+				<FileId>3454176238</FileId>
+			</li>
+			<li>
+				<Name>XML Extensions</Name>
+				<PackageId>imranfish.xmlextensions</PackageId>
+				<FileId>2574315206</FileId>
+			</li>
+			<li>
+				<Name>Raider Swarm Compression</Name>
+				<PackageId>ingendum.raiderswarmcompression</PackageId>
+				<FileId>3515541126</FileId>
+			</li>
+			<li>
+				<Name>Better Ambushes Continued</Name>
+				<PackageId>ionfrigate12345.coolandgoodambush</PackageId>
+				<FileId>3422946483</FileId>
+			</li>
+			<li>
+				<Name>Fishing Is Fun</Name>
+				<PackageId>jalapenolabs.rimworld.fishingisfun</PackageId>
+				<FileId>3538562620</FileId>
+			</li>
+			<li>
+				<Name>Interaction Bubbles</Name>
+				<PackageId>jaxe.bubbles</PackageId>
+				<FileId>1516158345</FileId>
+			</li>
+			<li>
+				<Name>RimHUD</Name>
+				<PackageId>jaxe.rimhud</PackageId>
+				<FileId>1508850027</FileId>
+			</li>
+			<li>
+				<Name>Close Settlements</Name>
+				<PackageId>jelly.bar0th.closesettlements</PackageId>
+				<FileId>2600837512</FileId>
+			</li>
+			<li>
+				<Name>[JF] Geometric Floors</Name>
+				<PackageId>jf.geometricfloors</PackageId>
+				<FileId>2863525144</FileId>
+			</li>
+			<li>
+				<Name>[JF] Royal Carpets</Name>
+				<PackageId>jf.royalcarpets</PackageId>
+				<FileId>2977701969</FileId>
+			</li>
+			<li>
+				<Name>SpeakUp</Name>
+				<PackageId>jpt.speakup</PackageId>
+				<FileId>2502518544</FileId>
+			</li>
+			<li>
+				<Name>Scenario Amender [1.5 - 1.6]</Name>
+				<PackageId>katana.scenarioamender</PackageId>
+				<FileId>3236547440</FileId>
+			</li>
+			<li>
+				<Name>Float Sub-Menus</Name>
+				<PackageId>kathanon.floatsubmenu</PackageId>
+				<FileId>2864015430</FileId>
+			</li>
+			<li>
+				<Name>Limit Quest Pawns</Name>
+				<PackageId>kathanon.limitquestpawns</PackageId>
+				<FileId>2898408684</FileId>
+			</li>
+			<li>
+				<Name>No Disabled Factions In Quests</Name>
+				<PackageId>kathanon.nodisabledfactions</PackageId>
+				<FileId>2892125637</FileId>
+			</li>
+			<li>
+				<Name>UI Retexture</Name>
+				<PackageId>katsudon.uiretexture</PackageId>
+				<FileId>2978831421</FileId>
+			</li>
+			<li>
+				<Name>Extra Explosion Effects</Name>
+				<PackageId>keshash.extraexplosioneffects</PackageId>
+				<FileId>3066208882</FileId>
+			</li>
+			<li>
+				<Name>Outfit Stands Plus</Name>
+				<PackageId>khamenman.outfitstandsplus</PackageId>
+				<FileId>3545172389</FileId>
+			</li>
+			<li>
+				<Name>Colored deep resources</Name>
+				<PackageId>kikohi.coloreddeepresources</PackageId>
+				<FileId>3203269467</FileId>
+			</li>
+			<li>
+				<Name>Social Experience from Trade</Name>
+				<PackageId>krelinos.socialexpfromtrade</PackageId>
+				<FileId>3400608063</FileId>
+			</li>
+			<li>
+				<Name>Premade Xenotype Floatmenu to Dialog</Name>
+				<PackageId>lee.xenotypefloattodialogue</PackageId>
+				<FileId>3350991041</FileId>
+			</li>
+			<li>
+				<Name>Giant crop</Name>
+				<PackageId>lingluo.giantcrop</PackageId>
+				<FileId>3488540512</FileId>
+			</li>
+			<li>
+				<Name>Auto-Cast Specialist Commands</Name>
+				<PackageId>linnun.autocastspecialistcommands</PackageId>
+				<FileId>3459647882</FileId>
+			</li>
+			<li>
+				<Name>Keep Converting</Name>
+				<PackageId>linnun.keepconverting</PackageId>
+				<FileId>3461478214</FileId>
+			</li>
+			<li>
+				<Name>Hide Raid Strategy</Name>
+				<PackageId>llunak.hideraidstrategy</PackageId>
+				<FileId>3384112445</FileId>
+			</li>
+			<li>
+				<Name>Ideology: More Precepts</Name>
+				<PackageId>llunak.moreprecepts</PackageId>
+				<FileId>2559533848</FileId>
+			</li>
+			<li>
+				<Name>RuntimeGC [1.6] fork2</Name>
+				<PackageId>louize.runtimegc.fork</PackageId>
+				<FileId>3528496623</FileId>
+			</li>
+			<li>
+				<Name>Grimoires</Name>
+				<PackageId>lts.pg</PackageId>
+				<FileId>3275474564</FileId>
+			</li>
+			<li>
+				<Name>Helltaker Cosmetic Genes</Name>
+				<PackageId>lusty.helltakergenes</PackageId>
+				<FileId>2955062315</FileId>
+			</li>
+			<li>
+				<Name>Log Publisher from HugsLib</Name>
+				<PackageId>m00nl1ght.unofficialupdates.hugslogpublisher</PackageId>
+				<FileId>2873415404</FileId>
+			</li>
+			<li>
+				<Name>World Tech Level</Name>
+				<PackageId>m00nl1ght.worldtechlevel</PackageId>
+				<FileId>3414187030</FileId>
+			</li>
+			<li>
+				<Name>AQW Armor Set</Name>
+				<PackageId>m3.jangodsoul.aqw.armorset</PackageId>
+				<FileId>3541935426</FileId>
+			</li>
+			<li>
+				<Name>Better ModMismatch Window</Name>
+				<PackageId>madeline.modmismatchformatter</PackageId>
+				<FileId>1872244972</FileId>
+			</li>
+			<li>
+				<Name>RIMMSqol</Name>
+				<PackageId>malteschulze.rimmsqol</PackageId>
+				<FileId>1084452457</FileId>
+			</li>
+			<li>
+				<Name>NoAbandonedCamp</Name>
+				<PackageId>mangone.noabandonedcamp</PackageId>
+				<FileId>3498936497</FileId>
+			</li>
+			<li>
+				<Name>Sometimes Raids Go Wrong</Name>
+				<PackageId>marvinkosh.sometimesraidsgowrong</PackageId>
+				<FileId>1551336515</FileId>
+			</li>
+			<li>
+				<Name>Genetic Drift 1.6</Name>
+				<PackageId>masstell.geneticdrift16</PackageId>
+				<FileId>3522332727</FileId>
+			</li>
+			<li>
+				<Name>Pick Up And Haul</Name>
+				<PackageId>mehni.pickupandhaul</PackageId>
+				<FileId>1279012058</FileId>
+			</li>
+			<li>
+				<Name>Beautiful Outdoors</Name>
+				<PackageId>meltup.beautifuloutdoors</PackageId>
+				<FileId>2011794898</FileId>
+			</li>
+			<li>
+				<Name>Designator Shapes</Name>
+				<PackageId>merthsoft.designatorshapes</PackageId>
+				<FileId>1235181370</FileId>
+			</li>
+			<li>
+				<Name>Sky Islands</Name>
+				<PackageId>metalocif.skyislands</PackageId>
+				<FileId>3550602990</FileId>
+			</li>
+			<li>
+				<Name>Medieval Signs</Name>
+				<PackageId>mewn.medievalsigns</PackageId>
+				<FileId>3488857567</FileId>
+			</li>
+			<li>
+				<Name>Bioferrite Torchlight Belt</Name>
+				<PackageId>misstall.bioftorchbeltz</PackageId>
+				<FileId>3239689527</FileId>
+			</li>
+			<li>
+				<Name>Throwing Weapon Belt</Name>
+				<PackageId>misstall.throwingweaponbeltz</PackageId>
+				<FileId>3238126692</FileId>
+			</li>
+			<li>
+				<Name>All Memories Fade</Name>
+				<PackageId>mlie.allmemoriesfade</PackageId>
+				<FileId>2800155563</FileId>
+			</li>
+			<li>
+				<Name>Block Unwanted Minutiae (Continued)</Name>
+				<PackageId>mlie.blockunwantedminutiae</PackageId>
+				<FileId>3278213153</FileId>
+			</li>
+			<li>
+				<Name>Choose Biome Commonality</Name>
+				<PackageId>mlie.choosebiomecommonality</PackageId>
+				<FileId>2582875043</FileId>
+			</li>
+			<li>
+				<Name>Compact Work Tab (Continued)</Name>
+				<PackageId>mlie.compactworktab</PackageId>
+				<FileId>3250322299</FileId>
+			</li>
+			<li>
+				<Name>Custom player icon (Continued)</Name>
+				<PackageId>mlie.customplayericon</PackageId>
+				<FileId>3290779422</FileId>
+			</li>
+			<li>
+				<Name>Ducks' No Limits - Ideology (Continued)</Name>
+				<PackageId>mlie.ducksnolimitsideology</PackageId>
+				<FileId>2916566114</FileId>
+			</li>
+			<li>
+				<Name>Harvest When Butchering</Name>
+				<PackageId>mlie.harvestwhenbutchering</PackageId>
+				<FileId>2898826891</FileId>
+			</li>
+			<li>
+				<Name>I Clearly Have Enough! (Continued)</Name>
+				<PackageId>mlie.iclearlyhaveenough</PackageId>
+				<FileId>2023661266</FileId>
+			</li>
+			<li>
+				<Name>Just Ignore Me Passing (Continued)</Name>
+				<PackageId>mlie.justignoremepassing</PackageId>
+				<FileId>3503627342</FileId>
+			</li>
+			<li>
+				<Name>Large Faction Bases (Continued)</Name>
+				<PackageId>mlie.largefactionbases</PackageId>
+				<FileId>3257781909</FileId>
+			</li>
+			<li>
+				<Name>Live With The Pain</Name>
+				<PackageId>mlie.livewiththepain</PackageId>
+				<FileId>2659985388</FileId>
+			</li>
+			<li>
+				<Name>Log After Def Error (Continued)</Name>
+				<PackageId>mlie.logafterdeferror</PackageId>
+				<FileId>3550944748</FileId>
+			</li>
+			<li>
+				<Name>No Random Ideologies</Name>
+				<PackageId>mlie.norandomideologies</PackageId>
+				<FileId>3337263133</FileId>
+			</li>
+			<li>
+				<Name>Perspective: Buildings (Continued)</Name>
+				<PackageId>mlie.perspectivebuildings</PackageId>
+				<FileId>3346955193</FileId>
+			</li>
+			<li>
+				<Name>Precepts and Memes (Continued)</Name>
+				<PackageId>mlie.preceptsandmemes</PackageId>
+				<FileId>2894625496</FileId>
+			</li>
+			<li>
+				<Name>Quest Progression Nerf (Continued)</Name>
+				<PackageId>mlie.questprogressionnerf</PackageId>
+				<FileId>3418288506</FileId>
+			</li>
+			<li>
+				<Name>Rabbit of Caerbannog Incident (Continued)</Name>
+				<PackageId>mlie.rabbitofcaerbannogincident</PackageId>
+				<FileId>2361380276</FileId>
+			</li>
+			<li>
+				<Name>Real Faction Guest (Continued)</Name>
+				<PackageId>mlie.realfactionguest</PackageId>
+				<FileId>2886929245</FileId>
+			</li>
+			<li>
+				<Name>Realistic Human Sounds (Continued)</Name>
+				<PackageId>mlie.realistichumansounds</PackageId>
+				<FileId>3497264525</FileId>
+			</li>
+			<li>
+				<Name>Recipe icons (Continued)</Name>
+				<PackageId>mlie.recipeicons</PackageId>
+				<FileId>2904906618</FileId>
+			</li>
+			<li>
+				<Name>Relevant Stats In Description</Name>
+				<PackageId>mlie.relevantstatsindescription</PackageId>
+				<FileId>2692669482</FileId>
+			</li>
+			<li>
+				<Name>Research Tree (Continued)</Name>
+				<PackageId>mlie.researchtree</PackageId>
+				<FileId>3030499331</FileId>
+			</li>
+			<li>
+				<Name>RimQuest (Continued)</Name>
+				<PackageId>mlie.rimquest</PackageId>
+				<FileId>2263331727</FileId>
+			</li>
+			<li>
+				<Name>SF Comfy Meditation (Continued)</Name>
+				<PackageId>mlie.sfcomfymeditation</PackageId>
+				<FileId>3432727841</FileId>
+			</li>
+			<li>
+				<Name>Spread The Word (Continued)</Name>
+				<PackageId>mlie.spreadtheword</PackageId>
+				<FileId>3287847068</FileId>
+			</li>
+			<li>
+				<Name>Tab-sorting</Name>
+				<PackageId>mlie.tabsorting</PackageId>
+				<FileId>2138635288</FileId>
+			</li>
+			<li>
+				<Name>Yayo's Caravan (Continued)</Name>
+				<PackageId>mlie.yayoscaravan</PackageId>
+				<FileId>2886919774</FileId>
+			</li>
+			<li>
+				<Name>Blue Archive Furniture</Name>
+				<PackageId>mlmlmlm.bluearchivefurniture</PackageId>
+				<FileId>3491176484</FileId>
+			</li>
+			<li>
+				<Name>IdeologyDoubt</Name>
+				<PackageId>moardm.ideologydoubt</PackageId>
+				<FileId>3372946055</FileId>
+			</li>
+			<li>
+				<Name>Mooloh's Dnd Menagerie</Name>
+				<PackageId>mooloh.dndmenagerie</PackageId>
+				<FileId>2751849453</FileId>
+			</li>
+			<li>
+				<Name>Morphs Assorted Biotech Retex</Name>
+				<PackageId>morphsassorted.biotechretex</PackageId>
+				<FileId>2950383797</FileId>
+			</li>
+			<li>
+				<Name>Empiricism and Faith - Mort's Ideologies: Memes and Precepts</Name>
+				<PackageId>mortstrudel.mortideologyscifai</PackageId>
+				<FileId>2948947009</FileId>
+			</li>
+			<li>
+				<Name>Layered Atmosphere and Orbit</Name>
+				<PackageId>mrhydralisk.layeredatmosphereorbit</PackageId>
+				<FileId>3568552579</FileId>
+			</li>
+			<li>
+				<Name>[NL] Custom Portraits</Name>
+				<PackageId>nals.customportraits</PackageId>
+				<FileId>1569605867</FileId>
+			</li>
+			<li>
+				<Name>[NL] Facial Animation - WIP</Name>
+				<PackageId>nals.facialanimation</PackageId>
+				<FileId>1635901197</FileId>
+			</li>
+			<li>
+				<Name>RWLayout</Name>
+				<PackageId>name.krypt.rimworld.rwlayout.alpha2</PackageId>
+				<FileId>2209393954</FileId>
+			</li>
+			<li>
+				<Name>Projectile Bullet Retexture</Name>
+				<PackageId>nd.rtpj</PackageId>
+				<FileId>2962208832</FileId>
+			</li>
+			<li>
+				<Name>Better Explosions</Name>
+				<PackageId>nephlite.advexplosions</PackageId>
+				<FileId>2572683272</FileId>
+			</li>
+			<li>
+				<Name>[BT] SpawnThoseGenes!</Name>
+				<PackageId>nera.spawnthosegenes</PackageId>
+				<FileId>2898044088</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Hair Retextured</Name>
+				<PackageId>neronix17.retexture.vanillahair</PackageId>
+				<FileId>2748834409</FileId>
+			</li>
+			<li>
+				<Name>Tabula Rasa</Name>
+				<PackageId>neronix17.toolbox</PackageId>
+				<FileId>1660622094</FileId>
+			</li>
+			<li>
+				<Name>Development Mode Hotkey</Name>
+				<PackageId>nightmare.devmodehotkey</PackageId>
+				<FileId>3009274839</FileId>
+			</li>
+			<li>
+				<Name>Visit Settlements</Name>
+				<PackageId>ninagoblin.visitsettlements</PackageId>
+				<FileId>3535955435</FileId>
+			</li>
+			<li>
+				<Name>Settlement Inventory</Name>
+				<PackageId>nmeijer.settlementinventory</PackageId>
+				<FileId>2083067219</FileId>
+			</li>
+			<li>
+				<Name>Entosomnia - Medieval Cryptosleep</Name>
+				<PackageId>nunahuralshamikh.entosomnia</PackageId>
+				<FileId>2112267985</FileId>
+			</li>
+			<li>
+				<Name>Medieval Prosthetics</Name>
+				<PackageId>nunahuralshamikh.medp</PackageId>
+				<FileId>2101545242</FileId>
+			</li>
+			<li>
+				<Name>My Little Planet</Name>
+				<PackageId>oblitus.mylittleplanet</PackageId>
+				<FileId>1117406550</FileId>
+			</li>
+			<li>
+				<Name>NANAME Floors</Name>
+				<PackageId>oels.nanamefloors</PackageId>
+				<FileId>3293767181</FileId>
+			</li>
+			<li>
+				<Name>Wandering Caravans</Name>
+				<PackageId>ogliss.g223.wanderingcaravans</PackageId>
+				<FileId>2295813916</FileId>
+			</li>
+			<li>
+				<Name>[Odyssey] Aethric Ship</Name>
+				<PackageId>okagrim.medgrav</PackageId>
+				<FileId>3543781052</FileId>
+			</li>
+			<li>
+				<Name>Dragons Descent</Name>
+				<PackageId>onyxae.dragonsdescent</PackageId>
+				<FileId>2026992161</FileId>
+			</li>
+			<li>
+				<Name>Sanguophage Feed Relationship</Name>
+				<PackageId>opponent019.sanguophagefeedrelationship</PackageId>
+				<FileId>2884586228</FileId>
+			</li>
+			<li>
+				<Name>Oracle + Erin's HD Tattoos</Name>
+				<PackageId>oracle.erin.tattoos</PackageId>
+				<FileId>2854739731</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Factions Expanded - Medieval 2</Name>
+				<PackageId>oskarpotocki.vfe.medieval2</PackageId>
+				<FileId>3444347874</FileId>
+			</li>
+			<li>
+				<Name>Drawn Spots</Name>
+				<PackageId>overpl.drawnspots</PackageId>
+				<FileId>2917791361</FileId>
+			</li>
+			<li>
+				<Name>Simple FX: Smoke</Name>
+				<PackageId>owlchemist.simplefx.smoke2</PackageId>
+				<FileId>3261314247</FileId>
+			</li>
+			<li>
+				<Name>Toggleable Overlays</Name>
+				<PackageId>owlchemist.toggleableoverlays</PackageId>
+				<FileId>3261316725</FileId>
+			</li>
+			<li>
+				<Name>Toggleable Readouts</Name>
+				<PackageId>owlchemist.toggleablereadouts</PackageId>
+				<FileId>3261317086</FileId>
+			</li>
+			<li>
+				<Name>Simple Warrants</Name>
+				<PackageId>pb3n.simplewarrants</PackageId>
+				<FileId>2676828755</FileId>
+			</li>
+			<li>
+				<Name>Compact Hediffs</Name>
+				<PackageId>petetimessix.compacthediffs</PackageId>
+				<FileId>2031734067</FileId>
+			</li>
+			<li>
+				<Name>Simple Learning Retexture</Name>
+				<PackageId>phaneron.simplelearningretexture</PackageId>
+				<FileId>3026005966</FileId>
+			</li>
+			<li>
+				<Name>Smart Meditation</Name>
+				<PackageId>puremj.mjrimmods.smartmeditation</PackageId>
+				<FileId>2800676538</FileId>
+			</li>
+			<li>
+				<Name>SimpleCameraSetting</Name>
+				<PackageId>ray1203.simplecamerasetting</PackageId>
+				<FileId>3232415388</FileId>
+			</li>
+			<li>
+				<Name>Better Children Skill Learning</Name>
+				<PackageId>redmattis.betterchildren</PackageId>
+				<FileId>2899562773</FileId>
+			</li>
+			<li>
+				<Name>Wololoo - Better Conversion and Recruitment</Name>
+				<PackageId>redmattis.betterconversion</PackageId>
+				<FileId>3108763487</FileId>
+			</li>
+			<li>
+				<Name>Stone Conversion Recipes</Name>
+				<PackageId>redram.stoneconversion</PackageId>
+				<FileId>2879659026</FileId>
+			</li>
+			<li>
+				<Name>Reel's Galactic Hairs</Name>
+				<PackageId>reel.hair</PackageId>
+				<FileId>2278578765</FileId>
+			</li>
+			<li>
+				<Name>Quest Expiration Critical Alert</Name>
+				<PackageId>reiquard.questexpirationcriticalalert</PackageId>
+				<FileId>2405632805</FileId>
+			</li>
+			<li>
+				<Name>Relic Rituary Ascension</Name>
+				<PackageId>relicrituaryascension.1trickpwnyta</PackageId>
+				<FileId>3018284456</FileId>
+			</li>
+			<li>
+				<Name>What's Missing? 1.5 temp</Name>
+				<PackageId>revolus.whatsmissing.15tmp</PackageId>
+				<FileId>3231090162</FileId>
+			</li>
+			<li>
+				<Name>Medieval Go-juice</Name>
+				<PackageId>rince.gaulishgojuice</PackageId>
+				<FileId>2969927060</FileId>
+			</li>
+			<li>
+				<Name>Scrolls</Name>
+				<PackageId>romyashi.scrolls</PackageId>
+				<FileId>3075712319</FileId>
+			</li>
+			<li>
+				<Name>Livestock Traders</Name>
+				<PackageId>samael.livestocktraders</PackageId>
+				<FileId>2960610215</FileId>
+			</li>
+			<li>
+				<Name>RPG Style Inventory Revamped</Name>
+				<PackageId>sandy.rpgstyleinventory.avilmask.revamped</PackageId>
+				<FileId>2478833213</FileId>
+			</li>
+			<li>
+				<Name>Alpha Biomes</Name>
+				<PackageId>sarg.alphabiomes</PackageId>
+				<FileId>1841354677</FileId>
+			</li>
+			<li>
+				<Name>Alpha Memes</Name>
+				<PackageId>sarg.alphamemes</PackageId>
+				<FileId>2661356814</FileId>
+			</li>
+			<li>
+				<Name>Smart Speed</Name>
+				<PackageId>sarg.smartspeed</PackageId>
+				<FileId>1504723424</FileId>
+			</li>
+			<li>
+				<Name>Resource Dictionary</Name>
+				<PackageId>scorpio.resourcedictionary</PackageId>
+				<FileId>2817607528</FileId>
+			</li>
+			<li>
+				<Name>Bonded Animals RNG</Name>
+				<PackageId>scurvyez.bondedanimalsrng</PackageId>
+				<FileId>3370236256</FileId>
+			</li>
+			<li>
+				<Name>Letter stack cleaner</Name>
+				<PackageId>seohyeon.letterstackcleaner</PackageId>
+				<FileId>2669779266</FileId>
+			</li>
+			<li>
+				<Name>Shavius's Medieval Flavour Pack</Name>
+				<PackageId>shavius.medieval.flavour</PackageId>
+				<FileId>2767940226</FileId>
+			</li>
+			<li>
+				<Name>Tribal Backstories</Name>
+				<PackageId>shenanigans.tribalbackstories1.4</PackageId>
+				<FileId>2879649038</FileId>
+			</li>
+			<li>
+				<Name>RimTraits - General Traits</Name>
+				<PackageId>sierra.rt.generaltraits</PackageId>
+				<FileId>2206957172</FileId>
+			</li>
+			<li>
+				<Name>RimTraits - Medieval Talents</Name>
+				<PackageId>sierra.rt.medievaltalents</PackageId>
+				<FileId>1916352291</FileId>
+			</li>
+			<li>
+				<Name>More Ritual Rewards</Name>
+				<PackageId>sinnamon.moreritualrewards</PackageId>
+				<FileId>2582489076</FileId>
+			</li>
+			<li>
+				<Name>Mashed's Bloodmoon</Name>
+				<PackageId>sirmashedpotato.bloodmoon</PackageId>
+				<FileId>3523186663</FileId>
+			</li>
+			<li>
+				<Name>ESCP - Skyshards</Name>
+				<PackageId>sirmashedpotato.escp.skyshards</PackageId>
+				<FileId>2814453057</FileId>
+			</li>
+			<li>
+				<Name>Questing Meme</Name>
+				<PackageId>sirmashedpotato.questingmeme</PackageId>
+				<FileId>2826539854</FileId>
+			</li>
+			<li>
+				<Name>More Pause Events</Name>
+				<PackageId>sirrandoo.mpe</PackageId>
+				<FileId>1874708724</FileId>
+			</li>
+			<li>
+				<Name>Questing Gives Goodwill (1.6)</Name>
+				<PackageId>sirrolin.questsgivesgoodwill</PackageId>
+				<FileId>3074941619</FileId>
+			</li>
+			<li>
+				<Name>Sleep Meditation</Name>
+				<PackageId>sl4vp0wer.sleepmeditation.1.5</PackageId>
+				<FileId>3238976509</FileId>
+			</li>
+			<li>
+				<Name>We Are United</Name>
+				<PackageId>sl4vp0wer.weareunited</PackageId>
+				<FileId>3030804445</FileId>
+			</li>
+			<li>
+				<Name>Easy Conversions</Name>
+				<PackageId>slashandz.easyconversions</PackageId>
+				<FileId>2885902723</FileId>
+			</li>
+			<li>
+				<Name>Medieval Repair</Name>
+				<PackageId>sm.medievalrepair</PackageId>
+				<FileId>2955709750</FileId>
+			</li>
+			<li>
+				<Name>Faster Settlement Restock</Name>
+				<PackageId>smeir.fastersettlementrestock</PackageId>
+				<FileId>3363826406</FileId>
+			</li>
+			<li>
+				<Name>MutatorWorldIcons</Name>
+				<PackageId>snobi.mutatorworldicons</PackageId>
+				<FileId>3551904193</FileId>
+			</li>
+			<li>
+				<Name>Blindsight - Unified</Name>
+				<PackageId>spencezilla.blindsightunified</PackageId>
+				<FileId>3248249029</FileId>
+			</li>
+			<li>
+				<Name>Simple Cape and Hood Retexture</Name>
+				<PackageId>stokes.simplehoodcape</PackageId>
+				<FileId>3543386604</FileId>
+			</li>
+			<li>
+				<Name>OverflowingFlowers</Name>
+				<PackageId>sumika.overflowingflowers</PackageId>
+				<FileId>3005103112</FileId>
+			</li>
+			<li>
+				<Name>All Ideoligions Are Fluid</Name>
+				<PackageId>superniquito.allideoligionsarefluid</PackageId>
+				<FileId>2872901762</FileId>
+			</li>
+			<li>
+				<Name>Mod Options Sort</Name>
+				<PackageId>superniquito.modoptionssort</PackageId>
+				<FileId>2910865748</FileId>
+			</li>
+			<li>
+				<Name>Trait and Backstory Icons</Name>
+				<PackageId>superniquito.traiticons</PackageId>
+				<FileId>2873494547</FileId>
+			</li>
+			<li>
+				<Name>Ambient Rim</Name>
+				<PackageId>swablu.ambience</PackageId>
+				<FileId>3158997430</FileId>
+			</li>
+			<li>
+				<Name>[SYR] Processor Framework</Name>
+				<PackageId>syrchalis.processor.framework</PackageId>
+				<FileId>3210544395</FileId>
+			</li>
+			<li>
+				<Name>Auto-assign Inventories on Caravan arrival</Name>
+				<PackageId>syrus.autoassigninventorycaravan</PackageId>
+				<FileId>2882784350</FileId>
+			</li>
+			<li>
+				<Name>Caravan Mood Buff</Name>
+				<PackageId>syrus.caravanmoodbuff</PackageId>
+				<FileId>2680751877</FileId>
+			</li>
+			<li>
+				<Name>CustomUIScales</Name>
+				<PackageId>taggerung.customuiscales</PackageId>
+				<FileId>2882372932</FileId>
+			</li>
+			<li>
+				<Name>Performance Optimizer</Name>
+				<PackageId>taranchuk.performanceoptimizer</PackageId>
+				<FileId>2664723367</FileId>
+			</li>
+			<li>
+				<Name>DragSelect</Name>
+				<PackageId>telardo.dragselect</PackageId>
+				<FileId>2599942235</FileId>
+			</li>
+			<li>
+				<Name>MultiFloors</Name>
+				<PackageId>telardo.multifloors</PackageId>
+				<FileId>3384660931</FileId>
+			</li>
+			<li>
+				<Name>Graphics Settings+</Name>
+				<PackageId>telefonmast.graphicssettings</PackageId>
+				<FileId>1678847247</FileId>
+			</li>
+			<li>
+				<Name>Custom Ritual Framework</Name>
+				<PackageId>thesepeople.ritualattachableoutcomes</PackageId>
+				<FileId>2561617361</FileId>
+			</li>
+			<li>
+				<Name>Useful Relics</Name>
+				<PackageId>thesepeople.usefulrelics</PackageId>
+				<FileId>3532662581</FileId>
+			</li>
+			<li>
+				<Name>Medieval Tailor Continued</Name>
+				<PackageId>tinda.medieval.tailor.continued</PackageId>
+				<FileId>3512201406</FileId>
+			</li>
+			<li>
+				<Name>Epochs Tallow - Butchery Patch</Name>
+				<PackageId>tinda.patches.epochstallow</PackageId>
+				<FileId>3508507223</FileId>
+			</li>
+			<li>
+				<Name>Who shot my leg off?</Name>
+				<PackageId>tixiv.whoshotmylegoff</PackageId>
+				<FileId>3491552121</FileId>
+			</li>
+			<li>
+				<Name>Priority Treatment Ressurected</Name>
+				<PackageId>tk421storm.prioritytreatmentressurected</PackageId>
+				<FileId>3009738919</FileId>
+			</li>
+			<li>
+				<Name>T's Conversion Staff</Name>
+				<PackageId>trickity.conversion.staff</PackageId>
+				<FileId>2890481507</FileId>
+			</li>
+			<li>
+				<Name>T's Seal the Spirits : Tribal Anomaly</Name>
+				<PackageId>trickity.seal.spirits</PackageId>
+				<FileId>3228158975</FileId>
+			</li>
+			<li>
+				<Name>Rimworld: Soundscape Enhanced</Name>
+				<PackageId>tro.soundscape.enhanced</PackageId>
+				<FileId>3276642170</FileId>
+			</li>
+			<li>
+				<Name>[TW1.6]幻彩林地 Rainbow forest</Name>
+				<PackageId>tw.tangsbiome.rainbowforest</PackageId>
+				<FileId>3532501549</FileId>
+			</li>
+			<li>
+				<Name>UNAGI Decorative Furniture</Name>
+				<PackageId>unagi.funiture.build.window</PackageId>
+				<FileId>3379047800</FileId>
+			</li>
+			<li>
+				<Name>Universal Pregnancy</Name>
+				<PackageId>universalpregnancy.1trickpwnyta</PackageId>
+				<FileId>3303758779</FileId>
+			</li>
+			<li>
+				<Name>Dark Ages : Crypts and Tombs</Name>
+				<PackageId>van.dacrypts</PackageId>
+				<FileId>2963826335</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Base Generation Expanded</Name>
+				<PackageId>vanillaexpanded.basegeneration</PackageId>
+				<FileId>3209927822</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Ideology Expanded - Icons and Symbols</Name>
+				<PackageId>vanillaexpanded.ideo.iconsandsymbols</PackageId>
+				<FileId>2552609458</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Ideology Expanded - Relics and Artifacts</Name>
+				<PackageId>vanillaexpanded.ideo.relicsandartifacts</PackageId>
+				<FileId>2564895018</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Ideology Expanded - Sophian Style</Name>
+				<PackageId>vanillaexpanded.ideo.sophianstyle</PackageId>
+				<FileId>3194606539</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Backstories Expanded</Name>
+				<PackageId>vanillaexpanded.vanillabackstoriesexpanded</PackageId>
+				<FileId>2861806869</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Social Interactions Expanded</Name>
+				<PackageId>vanillaexpanded.vanillasocialinteractionsexpanded</PackageId>
+				<FileId>2439736083</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Books Expanded</Name>
+				<PackageId>vanillaexpanded.vbookse</PackageId>
+				<FileId>2193152410</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Fishing Expanded</Name>
+				<PackageId>vanillaexpanded.vcef</PackageId>
+				<FileId>1914064942</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Furniture Expanded - Architect</Name>
+				<PackageId>vanillaexpanded.vfearchitect</PackageId>
+				<FileId>2608762624</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Furniture Expanded - Art</Name>
+				<PackageId>vanillaexpanded.vfeart</PackageId>
+				<FileId>1968134023</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Furniture Expanded - Farming</Name>
+				<PackageId>vanillaexpanded.vfefarming</PackageId>
+				<FileId>1957158779</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Furniture Expanded - Props and Decor</Name>
+				<PackageId>vanillaexpanded.vfepropsanddecor</PackageId>
+				<FileId>2102143149</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Hair Expanded</Name>
+				<PackageId>vanillaexpanded.vhe</PackageId>
+				<FileId>1888705256</FileId>
+			</li>
+			<li>
+				<Name>Mythic Ages: Megafauna Bestiary</Name>
+				<PackageId>veterano.mythicages.megafaunabestiary</PackageId>
+				<FileId>3537788184</FileId>
+			</li>
+			<li>
+				<Name>MoreAgingMultiplier</Name>
+				<PackageId>vingy.moreagingmulitplier</PackageId>
+				<FileId>2879214881</FileId>
+			</li>
+			<li>
+				<Name>Character Editor</Name>
+				<PackageId>void.charactereditor</PackageId>
+				<FileId>1874644848</FileId>
+			</li>
+			<li>
+				<Name>Wing's Meaningful Parties</Name>
+				<PackageId>winggar.meaningfulparties</PackageId>
+				<FileId>3504909699</FileId>
+			</li>
+			<li>
+				<Name>Do The Rituals Yourselves</Name>
+				<PackageId>woolyung.dotheritualsyourselves</PackageId>
+				<FileId>3511385838</FileId>
+			</li>
+			<li>
+				<Name>Perishable</Name>
+				<PackageId>wtfomgjohnny.perishable</PackageId>
+				<FileId>2294597530</FileId>
+			</li>
+			<li>
+				<Name>[WYD] Better Campsites</Name>
+				<PackageId>wyr3d.bettercampsites</PackageId>
+				<FileId>3546818262</FileId>
+			</li>
+			<li>
+				<Name>Inject Genes</Name>
+				<PackageId>zaf.injectgene</PackageId>
+				<FileId>2918091446</FileId>
+			</li>
+			<li>
+				<Name>Choose Your Recipe (Continued)</Name>
+				<PackageId>zal.chooseyourrecipe</PackageId>
+				<FileId>3263007587</FileId>
+			</li>
+			<li>
+				<Name>Immigrants</Name>
+				<PackageId>zal.immigrants</PackageId>
+				<FileId>3357184231</FileId>
+			</li>
+			<li>
+				<Name>Last Visited (Continued)</Name>
+				<PackageId>zal.lastvisited</PackageId>
+				<FileId>3507014727</FileId>
+			</li>
+			<li>
+				<Name>[ZAV] Fantasy Metals</Name>
+				<PackageId>zav.fantasymetalsforked</PackageId>
+				<FileId>2936850549</FileId>
+			</li>
+			<li>
+				<Name>LordsOfTheRim</Name>
+				<PackageId>zawodroshen.lordsoftherim</PackageId>
+				<FileId>3557022416</FileId>
+			</li>
+			<li>
+				<Name>Useful Marks</Name>
+				<PackageId>andromeda.usefulmarks</PackageId>
+				<FileId>3506573327</FileId>
+			</li>
+			<li>
+				<Name>ATH's style Gothic and Bloody Gothic</Name>
+				<PackageId>anthitei.athsstylegothic.style</PackageId>
+				<FileId>3534997556</FileId>
+			</li>
+			<li>
+				<Name>Ancient Armory for Ancients</Name>
+				<PackageId>botchjob.ancientarmoryforancients</PackageId>
+				<FileId>3039014779</FileId>
+			</li>
+			<li>
+				<Name>Castle Walls Expanded</Name>
+				<PackageId>chaoticenrico.castlewallsexpanded</PackageId>
+				<FileId>3024167916</FileId>
+			</li>
+			<li>
+				<Name>Smooth Terrain</Name>
+				<PackageId>chaoticenrico.smoothterrain</PackageId>
+				<FileId>3502765685</FileId>
+			</li>
+			<li>
+				<Name>[FSF] No Default Shelf Storage</Name>
+				<PackageId>frozensnowfox.nodefaultshelfstorage</PackageId>
+				<FileId>945085502</FileId>
+			</li>
+			<li>
+				<Name>Tribal Backstories - Medieval Patch</Name>
+				<PackageId>grasstypefire.tribalbackstories.medievalpatch</PackageId>
+				<FileId>3170651153</FileId>
+			</li>
+			<li>
+				<Name>Dungeon Core</Name>
+				<PackageId>hailuan.dungeon</PackageId>
+				<FileId>3064597982</FileId>
+			</li>
+			<li>
+				<Name>Animal Apparel: Framework</Name>
+				<PackageId>ingendum.animalapparelframework</PackageId>
+				<FileId>3513825850</FileId>
+			</li>
+			<li>
+				<Name>Searchable Menus</Name>
+				<PackageId>kathanon.searchablemenus</PackageId>
+				<FileId>2928608119</FileId>
+			</li>
+			<li>
+				<Name>Layered Wall Destruction</Name>
+				<PackageId>keshash.layeredwalldestruction</PackageId>
+				<FileId>3024527775</FileId>
+			</li>
+			<li>
+				<Name>Keyz' Allow Utilities</Name>
+				<PackageId>keyz182.keyzallowutilities</PackageId>
+				<FileId>3524716849</FileId>
+			</li>
+			<li>
+				<Name>Realistic Planets 1.6</Name>
+				<PackageId>koth.realisticplanets1.6</PackageId>
+				<FileId>3533147031</FileId>
+			</li>
+			<li>
+				<Name>Better Trees: More Djeeshka Like Textures</Name>
+				<PackageId>maal.bettertreesmod</PackageId>
+				<FileId>3543705507</FileId>
+			</li>
+			<li>
+				<Name>Precepts and Memes - Rituals module (Continued)</Name>
+				<PackageId>mlie.preceptsandmemesritualsmodule</PackageId>
+				<FileId>2894628849</FileId>
+			</li>
+			<li>
+				<Name>Basic RimThemes Recolours</Name>
+				<PackageId>mrsamuelstreamer.rimthemesrecolours</PackageId>
+				<FileId>2916014613</FileId>
+			</li>
+			<li>
+				<Name>Grouped Pawns Lists</Name>
+				<PackageId>name.krypt.rimworld.pawntablegrouped</PackageId>
+				<FileId>2340773428</FileId>
+			</li>
+			<li>
+				<Name>Character Editor Retextured</Name>
+				<PackageId>neronix17.retexture.charactereditor</PackageId>
+				<FileId>2855844396</FileId>
+			</li>
+			<li>
+				<Name>Giddy-Up 2 Forked</Name>
+				<PackageId>owlchemist.giddyup</PackageId>
+				<FileId>3246108162</FileId>
+			</li>
+			<li>
+				<Name>Optional Icons for Architect Icons</Name>
+				<PackageId>proxyer.optionalicons4ai</PackageId>
+				<FileId>1966995052</FileId>
+			</li>
+			<li>
+				<Name>ReBuild: Doors and Corners</Name>
+				<PackageId>rebuild.cotr.doorsandcorners</PackageId>
+				<FileId>3262718980</FileId>
+			</li>
+			<li>
+				<Name>Reel's Facial Animation Textures</Name>
+				<PackageId>reel.facialanims</PackageId>
+				<FileId>3118315633</FileId>
+			</li>
+			<li>
+				<Name>ReGrowth 2</Name>
+				<PackageId>regrowth.botr.core</PackageId>
+				<FileId>2260097569</FileId>
+			</li>
+			<li>
+				<Name>Alpha Genes</Name>
+				<PackageId>sarg.alphagenes</PackageId>
+				<FileId>2891845502</FileId>
+			</li>
+			<li>
+				<Name>Alpha Props - Parks and Gardens</Name>
+				<PackageId>sarg.alphapropsparks</PackageId>
+				<FileId>3146268928</FileId>
+			</li>
+			<li>
+				<Name>Genetic Biotech for Facial Animation</Name>
+				<PackageId>sd.fa.geneticheadsbiotech</PackageId>
+				<FileId>3501317537</FileId>
+			</li>
+			<li>
+				<Name>Genetic Mods for Facial Animation</Name>
+				<PackageId>sd.fa.geneticheadsmods</PackageId>
+				<FileId>3501317734</FileId>
+			</li>
+			<li>
+				<Name>Optimization: Meats - C# Edition</Name>
+				<PackageId>seohyeon.optimizationmeats</PackageId>
+				<FileId>2542931556</FileId>
+			</li>
+			<li>
+				<Name>Mashed's Ashlands</Name>
+				<PackageId>sirmashedpotato.ashlands</PackageId>
+				<FileId>3109835541</FileId>
+			</li>
+			<li>
+				<Name>Van's Retexture : Misc. Training</Name>
+				<PackageId>sirvan.misctrainingretexture</PackageId>
+				<FileId>2848956469</FileId>
+			</li>
+			<li>
+				<Name>VSIE - Rational Trait Development</Name>
+				<PackageId>stagz.vsierationaltraitdevelopment</PackageId>
+				<FileId>2916405546</FileId>
+			</li>
+			<li>
+				<Name>I Aint Building That</Name>
+				<PackageId>taggerung.iaintbuildingthat</PackageId>
+				<FileId>3118060751</FileId>
+			</li>
+			<li>
+				<Name>Romance On The Rim</Name>
+				<PackageId>telardo.romanceontherim</PackageId>
+				<FileId>2654432921</FileId>
+			</li>
+			<li>
+				<Name>Medieval Era RimTheme</Name>
+				<PackageId>thale.medievalerarimtheme</PackageId>
+				<FileId>3551233435</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Skills Expanded</Name>
+				<PackageId>vanillaexpanded.skills</PackageId>
+				<FileId>3400246558</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Fishing Expanded - Fishing Treasures AddOn</Name>
+				<PackageId>vanillaexpanded.vcefaddon</PackageId>
+				<FileId>2468543398</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Ideology Expanded - Memes and Structures</Name>
+				<PackageId>vanillaexpanded.vmemese</PackageId>
+				<FileId>2636329500</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Psycasts Expanded</Name>
+				<PackageId>vanillaexpanded.vpsycastse</PackageId>
+				<FileId>2842502659</FileId>
+			</li>
+			<li>
+				<Name>Settlements buy more</Name>
+				<PackageId>victor.buymore</PackageId>
+				<FileId>2886202254</FileId>
+			</li>
+			<li>
+				<Name>Friendly Hostile Factions (Continued)</Name>
+				<PackageId>zal.fhf</PackageId>
+				<FileId>2812503053</FileId>
+			</li>
+			<li>
+				<Name>Custom Fonts - Forked</Name>
+				<PackageId>zcubekr.customfonts</PackageId>
+				<FileId>3231727915</FileId>
+			</li>
+			<li>
+				<Name>Legendary Boss</Name>
+				<PackageId>andromeda.legendaryboss</PackageId>
+				<FileId>3538894636</FileId>
+			</li>
+			<li>
+				<Name>VPE - Ranger</Name>
+				<PackageId>aranmaho.rangerclass</PackageId>
+				<FileId>2927626324</FileId>
+			</li>
+			<li>
+				<Name>Yayo's Animation (Continued)</Name>
+				<PackageId>com.yayo.yayoani.continued</PackageId>
+				<FileId>2877292196</FileId>
+			</li>
+			<li>
+				<Name>VPE Self-Cast This! Plus Temp 1.6</Name>
+				<PackageId>ctrlaltfunk.vpeselfcastpluspatch</PackageId>
+				<FileId>3519928832</FileId>
+			</li>
+			<li>
+				<Name>Rimano: Architect Icons</Name>
+				<PackageId>deadmano.rimanoarchitecticons</PackageId>
+				<FileId>3212495112</FileId>
+			</li>
+			<li>
+				<Name>ESCP - Race Tools</Name>
+				<PackageId>escp.racetools</PackageId>
+				<FileId>3244642507</FileId>
+			</li>
+			<li>
+				<Name>Worldbuilder</Name>
+				<PackageId>ferny.worldbuilder</PackageId>
+				<FileId>3522102833</FileId>
+			</li>
+			<li>
+				<Name>[FSF] Better Exploration Loot</Name>
+				<PackageId>frozensnowfox.betterexplorationloot</PackageId>
+				<FileId>3526957922</FileId>
+			</li>
+			<li>
+				<Name>Ultimate Storyteller - Basilicus Patch [1.4-1.6]</Name>
+				<PackageId>gold.usbasilicuspatch</PackageId>
+				<FileId>2928443788</FileId>
+			</li>
+			<li>
+				<Name>Animal Apparel: Basic Armor</Name>
+				<PackageId>ingendum.animalarmorbasic</PackageId>
+				<FileId>3513849448</FileId>
+			</li>
+			<li>
+				<Name>Geological Landforms</Name>
+				<PackageId>m00nl1ght.geologicallandforms</PackageId>
+				<FileId>2773943594</FileId>
+			</li>
+			<li>
+				<Name>Psychic Sensitivity Affects More (VPE)</Name>
+				<PackageId>mute.vpesensitivity</PackageId>
+				<FileId>2881380497</FileId>
+			</li>
+			<li>
+				<Name>Ars Mythica - Lightseeker</Name>
+				<PackageId>myf.lightseeker</PackageId>
+				<FileId>3068154233</FileId>
+			</li>
+			<li>
+				<Name>ReGrowth 2 World Map Beautification for Alpha Biomes</Name>
+				<PackageId>noxilie.regrow.wmb.alphabiomes</PackageId>
+				<FileId>3564679302</FileId>
+			</li>
+			<li>
+				<Name>pphhyy's Demigryphs Continued</Name>
+				<PackageId>pphhyy.demigryphsmod</PackageId>
+				<FileId>3540496928</FileId>
+			</li>
+			<li>
+				<Name>Lightless Empyrean Reborn</Name>
+				<PackageId>pphhyy.lightlessempyrean</PackageId>
+				<FileId>3517488959</FileId>
+			</li>
+			<li>
+				<Name>Alpha Skills</Name>
+				<PackageId>sarg.alphaskills</PackageId>
+				<FileId>3448953006</FileId>
+			</li>
+			<li>
+				<Name>Adjustments for Reel's Facial Animation Textures</Name>
+				<PackageId>sd.fa.reelsadjustments</PackageId>
+				<FileId>3429452043</FileId>
+			</li>
+			<li>
+				<Name>Mashed's Spiribirds</Name>
+				<PackageId>sirmashedpotato.spiribirds</PackageId>
+				<FileId>2839002794</FileId>
+			</li>
+			<li>
+				<Name>More Ritual Seats</Name>
+				<PackageId>toastyman.moreritualseats</PackageId>
+				<FileId>3411913071</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Psycasts Expanded - Puppeteer</Name>
+				<PackageId>vanillaexpanded.vpe.puppeteer</PackageId>
+				<FileId>3033779606</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Plants Expanded</Name>
+				<PackageId>vanillaexpanded.vplantse</PackageId>
+				<FileId>2134308522</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Textures Expanded</Name>
+				<PackageId>vanillaexpanded.vtexe</PackageId>
+				<FileId>2016436324</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Textures Expanded - [NL] Facial Animation</Name>
+				<PackageId>vanillaexpanded.vtexe.facialanims</PackageId>
+				<FileId>2816938779</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Races Expanded - Archon</Name>
+				<PackageId>vanillaracesexpanded.archon</PackageId>
+				<FileId>3067715093</FileId>
+			</li>
+			<li>
+				<Name>VPE - Luminis</Name>
+				<PackageId>vpe.luminis.sentinel</PackageId>
+				<FileId>3559834496</FileId>
+			</li>
+			<li>
+				<Name>Medieval Fantasy Themed Quest Rewards</Name>
+				<PackageId>botchjob.medievalfantasyquestrewards</PackageId>
+				<FileId>2955864975</FileId>
+			</li>
+			<li>
+				<Name>Medieval Fantasy Themed Rare Resources</Name>
+				<PackageId>botchjob.medievalfantasyrareresources</PackageId>
+				<FileId>2942661554</FileId>
+			</li>
+			<li>
+				<Name>Medieval Fantasy Themed Relic Quests</Name>
+				<PackageId>botchjob.medievalfantasythemedrelicquests</PackageId>
+				<FileId>3035624471</FileId>
+			</li>
+			<li>
+				<Name>[CF] Anomaly Upscaled</Name>
+				<PackageId>cf.anomalyupscaled</PackageId>
+				<FileId>3239664028</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Psycast Expanded - Biotech Integration</Name>
+				<PackageId>danzen.vpe.biotechintegration</PackageId>
+				<FileId>3110971925</FileId>
+			</li>
+			<li>
+				<Name>Erin's Body Retexture</Name>
+				<PackageId>erin.body.texture</PackageId>
+				<FileId>2662457442</FileId>
+			</li>
+			<li>
+				<Name>MorrowRim - Passive Birthsigns</Name>
+				<PackageId>escp.morrowrim.birthsignspassive</PackageId>
+				<FileId>3244646911</FileId>
+			</li>
+			<li>
+				<Name>Gerrymon's Upscaled Vanilla Textures</Name>
+				<PackageId>gerrymon.uvt</PackageId>
+				<FileId>3276562906</FileId>
+			</li>
+			<li>
+				<Name>Animal Apparel: Universal Basic Armor</Name>
+				<PackageId>ingendum.animalarmoruniversal</PackageId>
+				<FileId>3524467381</FileId>
+			</li>
+			<li>
+				<Name>Biome Transitions</Name>
+				<PackageId>m00nl1ght.geologicallandforms.biometransitions</PackageId>
+				<FileId>2814391846</FileId>
+			</li>
+			<li>
+				<Name>Replace Stuff - Continued</Name>
+				<PackageId>memegoddess.replacestuff</PackageId>
+				<FileId>3526354009</FileId>
+			</li>
+			<li>
+				<Name>Myf's Vanilla Psycast Expanded Tweaks</Name>
+				<PackageId>myf.vpe.tweaks</PackageId>
+				<FileId>3328399391</FileId>
+			</li>
+			<li>
+				<Name>Drafted Auto-Combat</Name>
+				<PackageId>redmattis.autocombat</PackageId>
+				<FileId>3546270076</FileId>
+			</li>
+			<li>
+				<Name>Big and Small - Genes &amp; More</Name>
+				<PackageId>redmattis.bigsmall.core</PackageId>
+				<FileId>2920751126</FileId>
+			</li>
+			<li>
+				<Name>Adjustments for Vanilla Textures Expanded - [NL] Facial Animation</Name>
+				<PackageId>sd.fa.vteadjustments</PackageId>
+				<FileId>3532050275</FileId>
+			</li>
+			<li>
+				<Name>Mashed's Spiribugs</Name>
+				<PackageId>sirmashedpotato.spiribugs</PackageId>
+				<FileId>2846527821</FileId>
+			</li>
+			<li>
+				<Name>Van's Retexture : Hemogen Vials </Name>
+				<PackageId>sirvan.hemogentexture</PackageId>
+				<FileId>3453224032</FileId>
+			</li>
+			<li>
+				<Name>Van's Retexture : Melee Weapons</Name>
+				<PackageId>sirvan.mwretextured</PackageId>
+				<FileId>2922441211</FileId>
+			</li>
+			<li>
+				<Name>Van's Retexture : Organ jars</Name>
+				<PackageId>sirvan.organretexture</PackageId>
+				<FileId>3541295970</FileId>
+			</li>
+			<li>
+				<Name>Van's Retexture : Steel</Name>
+				<PackageId>sirvan.steelretexture</PackageId>
+				<FileId>2955560866</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Plants Expanded - More Plants</Name>
+				<PackageId>vanillaexpanded.vplantsemore</PackageId>
+				<FileId>2748889667</FileId>
+			</li>
+			<li>
+				<Name>Vanilla Plants Expanded - Mushrooms</Name>
+				<PackageId>vanillaexpanded.vplantsemushrooms</PackageId>
+				<FileId>3006389281</FileId>
+			</li>
+			<li>
+				<Name>Possessed Weapons</Name>
+				<PackageId>botchjob.possessedweapons</PackageId>
+				<FileId>2982391372</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul</Name>
+				<PackageId>dankpyon.medieval.overhaul</PackageId>
+				<FileId>3219596926</FileId>
+			</li>
+			<li>
+				<Name>DevilFruit</Name>
+				<PackageId>feldoh.devilfruit</PackageId>
+				<FileId>3169663638</FileId>
+			</li>
+			<li>
+				<Name>Mr Samuel Streamer Flavour Pack</Name>
+				<PackageId>mss.flavourpack</PackageId>
+				<FileId>3379574408</FileId>
+			</li>
+			<li>
+				<Name>Big and Small - Races</Name>
+				<PackageId>redmattis.bigsmall</PackageId>
+				<FileId>2894397737</FileId>
+			</li>
+			<li>
+				<Name>Big and Small - Heaven and Hell</Name>
+				<PackageId>redmattis.heaven</PackageId>
+				<FileId>3170117364</FileId>
+			</li>
+			<li>
+				<Name>Big and Small - Vampires and the Undead</Name>
+				<PackageId>redmattis.undead</PackageId>
+				<FileId>2926556467</FileId>
+			</li>
+			<li>
+				<Name>Time Kills</Name>
+				<PackageId>silencer59.timekills</PackageId>
+				<FileId>2374079539</FileId>
+			</li>
+			<li>
+				<Name>Grimstone : Beasts</Name>
+				<PackageId>abrolo.grimstone.beasts</PackageId>
+				<FileId>3535302121</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul: Royalty</Name>
+				<PackageId>accurex.medievalempireoverhaul</PackageId>
+				<FileId>2646321064</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul: Toggleable Stuff</Name>
+				<PackageId>accurex.medievaloverhaul.stuff</PackageId>
+				<FileId>2898440531</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul Integration Fixes</Name>
+				<PackageId>azrazalea.medievaloverhaulintegrationfixes</PackageId>
+				<FileId>3535525683</FileId>
+			</li>
+			<li>
+				<Name>Campfire Stews</Name>
+				<PackageId>badoaks.campfirestews</PackageId>
+				<FileId>3467551920</FileId>
+			</li>
+			<li>
+				<Name>Divine Order</Name>
+				<PackageId>botchjob.divineorder</PackageId>
+				<FileId>3017163907</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul: House Roxmont</Name>
+				<PackageId>dankpyon.medieval.overhaul.house.roxmont</PackageId>
+				<FileId>3526042587</FileId>
+			</li>
+			<li>
+				<Name>Big Little Mod Patch</Name>
+				<PackageId>daria40k.biglittlemodpatch</PackageId>
+				<FileId>2710382569</FileId>
+			</li>
+			<li>
+				<Name>Progression: Verticality</Name>
+				<PackageId>ferny.progressionverticality</PackageId>
+				<FileId>3416136317</FileId>
+			</li>
+			<li>
+				<Name>[FSF] FrozenSnowFox Tweaks</Name>
+				<PackageId>frozensnowfox.frozensnowfoxtweaks</PackageId>
+				<FileId>2893432492</FileId>
+			</li>
+			<li>
+				<Name>GlitterStone</Name>
+				<PackageId>harmonea.glitterstone</PackageId>
+				<FileId>3448660461</FileId>
+			</li>
+			<li>
+				<Name>Clean Textures</Name>
+				<PackageId>ih.clean.textures</PackageId>
+				<FileId>2865361569</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul - Component Replacement Patch - (Continued)</Name>
+				<PackageId>jabba.mocomponentrep</PackageId>
+				<FileId>3246144126</FileId>
+			</li>
+			<li>
+				<Name>Hooded Helms addon for Medieval Overhaul</Name>
+				<PackageId>joedaly.hoodedhelms</PackageId>
+				<FileId>2872166785</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul - Battle Elixir for Hussars</Name>
+				<PackageId>joedaly.hussarelixir.mo</PackageId>
+				<FileId>3325893424</FileId>
+			</li>
+			<li>
+				<Name>Medieval Medicines Medieval Overhaul Edition</Name>
+				<PackageId>joedaly.medmeds.mo</PackageId>
+				<FileId>2883228057</FileId>
+			</li>
+			<li>
+				<Name>Medieval Trader Airships</Name>
+				<PackageId>joeownage.automatic.traderships</PackageId>
+				<FileId>3448488157</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overlap Remover</Name>
+				<PackageId>joeownage.overlap.remover</PackageId>
+				<FileId>3455187565</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul Extra Signs</Name>
+				<PackageId>mewn.extra.signs</PackageId>
+				<FileId>2967087032</FileId>
+			</li>
+			<li>
+				<Name>Dusk Wood Biome</Name>
+				<PackageId>okagrim.duskwood</PackageId>
+				<FileId>3560499511</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul Deep Vein Mining</Name>
+				<PackageId>phant0m5.modeepveinmines</PackageId>
+				<FileId>2942453140</FileId>
+			</li>
+			<li>
+				<Name>Big and Small Furniture</Name>
+				<PackageId>redmattis.bsfurniture</PackageId>
+				<FileId>3024478368</FileId>
+			</li>
+			<li>
+				<Name>Medieval Undead Hordes</Name>
+				<PackageId>redmattis.undead.medieval</PackageId>
+				<FileId>2994387009</FileId>
+			</li>
+			<li>
+				<Name>Fantasy Quest Rewards Retexture</Name>
+				<PackageId>serek.fantasyquestrewardsretextured</PackageId>
+				<FileId>3444852216</FileId>
+			</li>
+			<li>
+				<Name>Misc. Training Medieval Retexture</Name>
+				<PackageId>serek.misctrainingmedievalretexture</PackageId>
+				<FileId>3271602770</FileId>
+			</li>
+			<li>
+				<Name>Medieval Adventures: Implants</Name>
+				<PackageId>seti.medieval.implants</PackageId>
+				<FileId>3397035499</FileId>
+			</li>
+			<li>
+				<Name>RimFantasy - Medieval Overhaul Edition</Name>
+				<PackageId>sierra.rf.medievaloverhaul</PackageId>
+				<FileId>2836791007</FileId>
+			</li>
+			<li>
+				<Name>Dark Ages : Beasts and Monsters</Name>
+				<PackageId>van.beasts</PackageId>
+				<FileId>3472275628</FileId>
+			</li>
+			<li>
+				<Name>Stranger In Black Techlevel</Name>
+				<PackageId>zal.sibtl</PackageId>
+				<FileId>3428237149</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul Tweaks</Name>
+				<PackageId>zenlor.motweaks</PackageId>
+				<FileId>2730497766</FileId>
+			</li>
+			<li>
+				<Name>The Profaned</Name>
+				<PackageId>botchjob.profaned</PackageId>
+				<FileId>3202008037</FileId>
+			</li>
+			<li>
+				<Name>Joe's Tweaks</Name>
+				<PackageId>joe.mo.tweaks</PackageId>
+				<FileId>3458506170</FileId>
+			</li>
+			<li>
+				<Name>RPG Adventure Flavour Pack - Fork</Name>
+				<PackageId>joe.rpgadventureflavour.fork</PackageId>
+				<FileId>3342554570</FileId>
+			</li>
+			<li>
+				<Name>Medieval Anomaly</Name>
+				<PackageId>okagrim.medievalanomaly</PackageId>
+				<FileId>3562593688</FileId>
+			</li>
+			<li>
+				<Name>RimFantasy - House Doyle</Name>
+				<PackageId>sierra.rf.housedoyle</PackageId>
+				<FileId>2903293603</FileId>
+			</li>
+			<li>
+				<Name>Medieval Overhaul Patches</Name>
+				<PackageId>vr.mopatches</PackageId>
+				<FileId>3015529451</FileId>
+			</li>
+			<li>
+				<Name>DragonBond</Name>
+				<PackageId>crows.dragonbond</PackageId>
+				<FileId>3346930834</FileId>
+			</li>
+			<li>
+				<Name>Medieval Backstories Patch</Name>
+				<PackageId>grasstypefire.medieval.backstoriespatch</PackageId>
+				<FileId>3170653412</FileId>
+			</li>
+			<li>
+				<Name>Messiah Flavour Pack</Name>
+				<PackageId>mss.messiah</PackageId>
+				<FileId>3573150110</FileId>
+			</li>
+			<li>
+				<Name>Dark Ages : Medieval Tools</Name>
+				<PackageId>van.datools</PackageId>
+				<FileId>3028566550</FileId>
+			</li>
+			<li>
+				<Name>Medieval Fantasy Psycaster Raids</Name>
+				<PackageId>waffle.fantasypatches</PackageId>
+				<FileId>3413747772</FileId>
+			</li>
+		</mods>
+	</ModlistQuickstart.ModlistDef>
+</Defs>
