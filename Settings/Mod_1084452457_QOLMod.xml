@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="RIMMSqol.QOLModSettings">
+		<settings>
+			<li>
+				<id>settings</id>
+				<isConfigured>accumulateSkillDecayIntervals;f;SkillDecayLevelOffset;f;StopSkillDecay;f;StopSkillDown;t;StopTamenessDecay;f;dailyXpLimit;f;FallRatePerPsyfocusBand0;f;FallRatePerPsyfocusBand1;f;FallRatePerPsyfocusBand2;f;PreventAnimalFamilies;f;AllowNamedAnimalFamilies;f;UseFixedNumericTextfields;f;CuMBaseCost;f;CumCostIdeo;f;CumCostPassionMinor;f;CumCostPassionMajor;f;UseSyrchalistTraitvalue;f;CuMTax;f;CuMInflationCurve;t;CuMConversionPawn;f;CuMConversionRemnants;f;RemnantsOrderPriceFactor;f;StarvingThreshold;f;DisplayFoundCityGizmo;t;TooltipMaxWidth;f;GrowLists;f;AlwaysDisplayLabelInMBDD;f;DateStyle;f;HiddenAlerts;f;HiddenLetters;f;hiddenMessages;f;ForbiddenPatches;f;AvoidDesignatorRefresh;f;ReapplyOnGameLoad;t;StopRoofCollapse;f;Slavery;f;PawnValueExpectationsMV0;f;PawnValueExpectationsMV1;f;PawnValueExpectationsMV2;f;PawnValueExpectationsMV3;f;PawnValueExpectationsMV4;f;PawnValueExpectationsMV5;f;ProgressPerParticipantCurve;f;BookUtilityQualitySkillExpTick;f;DefCopies;f;CompCopies;f;</isConfigured>
+				<baseObjectKey>singleton</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+				<StopSkillDown>True</StopSkillDown>
+				<CuMInflationCurve />
+				<DisplayFoundCityGizmo>False</DisplayFoundCityGizmo>
+				<ReapplyOnGameLoad>True</ReapplyOnGameLoad>
+			</li>
+		</settings>
+		<traitCosts />
+		<backstoryCosts />
+		<recordFactors />
+		<mainButtons>
+			<li>
+				<id>mainButtons</id>
+				<isConfigured>Label;f;IconPath;f;Description;f;Visible;t;Minimized;f;Order;f;Buttons;f;</isConfigured>
+				<baseObjectKey>MSqolSearch</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+			</li>
+			<li>
+				<id>mainButtons</id>
+				<isConfigured>Label;f;IconPath;f;Description;f;Visible;t;Minimized;f;Order;f;Buttons;f;</isConfigured>
+				<baseObjectKey>MSqolRPG</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+			</li>
+			<li>
+				<id>mainButtons</id>
+				<isConfigured>Label;f;IconPath;f;Description;f;Visible;t;Minimized;f;Order;f;Buttons;f;</isConfigured>
+				<baseObjectKey>MSqolStoryteller</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+			</li>
+			<li>
+				<id>mainButtons</id>
+				<isConfigured>Label;f;IconPath;f;Description;f;Visible;t;Minimized;f;Order;f;Buttons;f;</isConfigured>
+				<baseObjectKey>RGC_UI</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+			</li>
+		</mainButtons>
+		<architectButtons />
+		<recipes />
+		<floorsAndTerrain />
+		<thoughts>
+			<li>
+				<id>thoughts</id>
+				<isConfigured>Label;f;Description;f;Duration;f;OnlyForColonists;f;ShowBubble;f;MultiplyingStat;f;NextThought;f;StackLimit;f;StackLimitPerPawn;f;StackedEffectMultiplier;f;MaximumCumulatedOpinion;f;Stages;t;</isConfigured>
+				<baseObjectKey>ColonistBanished</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+				<Stages>
+					<li>
+						<id>thoughtStage</id>
+						<isConfigured>Label;f;LabelSocial;f;Description;t;BaseMoodEffect;t;BaseOpinionOffset;f;Visible;f;</isConfigured>
+						<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+						<Description>We just banished someone. Sent them in the world to be ensnared by the gaze of the eye! What a terrible thought!</Description>
+						<BaseMoodEffect>-15</BaseMoodEffect>
+					</li>
+				</Stages>
+			</li>
+			<li>
+				<id>thoughts</id>
+				<isConfigured>Label;f;Description;f;Duration;f;OnlyForColonists;f;ShowBubble;f;MultiplyingStat;f;NextThought;f;StackLimit;f;StackLimitPerPawn;f;StackedEffectMultiplier;f;MaximumCumulatedOpinion;f;Stages;t;</isConfigured>
+				<baseObjectKey>ColonistBanishedToDie</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+				<Stages>
+					<li>
+						<id>thoughtStage</id>
+						<isConfigured>Label;f;LabelSocial;f;Description;t;BaseMoodEffect;t;BaseOpinionOffset;f;Visible;f;</isConfigured>
+						<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+						<Description>We just banished someone. Sent them in the world to be ensnared by the gaze of the eye! What a terrible thought!</Description>
+						<BaseMoodEffect>-15</BaseMoodEffect>
+					</li>
+				</Stages>
+			</li>
+		</thoughts>
+		<apparel />
+		<weapons />
+		<projectiles />
+		<damage />
+		<plants />
+		<material>
+			<li>
+				<id>material</id>
+				<isConfigured>label;t;StackLimit;f;PathCost;f;UseHitPoints;f;SmallVolume;f;Smeltable;f;burnableByRecipe;f;isAirtight;f;DeepCommonality;f;DeepCountPerPortion;f;DeepCountPerCell;f;DeepLumpSizeMin;f;DeepLumpSizeMax;f;Categories;f;statBases;f;ThingCategories;f;thingSetMakerTags;f;TradeTags;f;Tradeability;f;Commonality;f;Color;f;GraphicData;f;StatFactors;f;StatOffsets;f;</isConfigured>
+				<baseObjectKey>Plasteel</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+				<label>mithsteel</label>
+			</li>
+			<li>
+				<id>material</id>
+				<isConfigured>label;t;StackLimit;f;PathCost;f;UseHitPoints;f;SmallVolume;f;Smeltable;f;burnableByRecipe;f;isAirtight;f;DeepCommonality;f;DeepCountPerPortion;f;DeepCountPerCell;f;DeepLumpSizeMin;f;DeepLumpSizeMax;f;Categories;f;statBases;f;ThingCategories;f;thingSetMakerTags;f;TradeTags;f;Tradeability;f;Commonality;f;Color;f;GraphicData;f;StatFactors;f;StatOffsets;f;</isConfigured>
+				<baseObjectKey>Uranium</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+				<label>Duranium</label>
+			</li>
+		</material>
+		<food />
+		<buildings />
+		<items />
+		<hediffs />
+		<pawns />
+		<pawnKinds />
+		<traits />
+		<abilities />
+		<researchProjects />
+		<researchTabs />
+		<backstories />
+		<biomes />
+		<filth />
+		<factions>
+			<li>
+				<id>factions</id>
+				<isConfigured>Label;t;FactionIconPath;f;melaninRange.min;f;melaninRange.max;f;startingCountAtWorldCreation;f;</isConfigured>
+				<baseObjectKey>Insect</baseObjectKey>
+				<baseObjectReferenceKey>-1</baseObjectReferenceKey>
+				<Label>Feral Creatures</Label>
+			</li>
+		</factions>
+		<worldObject />
+		<genes />
+		<precepts />
+		<workGivers />
+		<thingCategories />
+		<need />
+		<weaponTraits />
+		<royaltitlepermits />
+		<royalTiltes />
+		<xenotype />
+	</ModSettings>
+</SettingsBlock>
