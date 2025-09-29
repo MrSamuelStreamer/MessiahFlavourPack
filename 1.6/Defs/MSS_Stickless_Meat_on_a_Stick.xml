@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Stickless Meat -->
+
+  <ThingDef ParentName="MealCookedIngredientless">
+    <defName>MSS_SticklessMeat</defName>
+    <label>Stickless Meat on a Stick</label>
+    <description>Meat skewered onto a stick, but then the stick is removed from the meat, so you can eat the meat without the inherent risk of splinters.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/SticklessMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8</MarketValue>
+      <WorkToMake>190</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Meatless Stick -->
+
+  <ThingDef ParentName="MealCookedIngredientless">
+    <defName>MSS_MeatlessStick</defName>
+    <label>Meatless Meat on a Stick</label>
+    <description>Meat skewered onto a stick, but then the meat is removed from the stick, so you can eat the stick without giving into outdated carnivore fantasies.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/MeatlessStick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <WorkToMake>190</WorkToMake>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+    <!-- Stickless Meatless Stick -->
+
+  <ThingDef ParentName="MealCookedIngredientless">
+    <defName>MSS_SticklessMeatlessStick</defName>
+    <label>Stickless Meatless Meat on a Stick</label>
+    <description>A meal compatible with 100% of dietary requirements to suit all races, creeds, and ways of life. The Stickless Meatless Meat on a Stick is a marvel of the culinary arts, but generally leaves diners feeling like they want a second course...</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/SticklessMeatlessStick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <WorkToMake>100</WorkToMake>
+      <Nutrition>0.00</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+      <!-- Meat on a Meat -->
+
+  <ThingDef ParentName="MealCookedIngredientless">
+    <defName>MSS_MeatonaMeat</defName>
+    <label>Meat on a Meat</label>
+    <description>Introducing Meat on a Meat, all the benefits of meat, with added meat, and none of the drawbacks of a stick! Meat on a meat allows you to cook twice the meat with twice the nutrition, but have it take only slightly longer than cooking twice the amount of just meat by itself! Very efficient for feeding larger colonits, giants, ogres, and demons!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/MeatonaMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <WorkToMake>350</WorkToMake>
+      <Nutrition>2.00</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Stick on a Stick -->
+
+  <ThingDef ParentName="MealCookedIngredientless">
+    <defName>MSS_StickonaStick</defName>
+    <label>Stick on a Stick</label>
+    <description>I hope your sitting down, because it's time to </description>
+    <graphicData>
+      <texPath>Things/Item/Meal/StickonaStick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <WorkToMake>350</WorkToMake>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Recipes -->
+  <!-- Cook Stickless Meat -->
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookSticklessMeat</defName>
+    <label>Cook Stickless Meat</label>
+    <description>Cook raw meat over an open fire then absolutely removing the stick.</description>
+    <jobString>Cooking meat on a stick but then absolutely removing the stick.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_SticklessMeat>1</MSS_SticklessMeat>
+      <!-- <Wood>1</Wood> -->
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookSticklessMeatInBulk</defName>
+    <label>Cook Stickless Meat x4</label>
+    <description>Cook raw meat over an open fire using a stick but remove the stick (x4).</description>
+    <jobString>Cooking 4 meat on a stick then removing a whole bunch of sticks.</jobString>
+    <workAmount>760</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>2.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MeatOnAStick>4</MeatOnAStick>
+      <!-- <wood>4</wood> -->
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>96</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <!-- Cook Meatless Stick -->
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookMeatlessStick</defName>
+    <label>Cook Meatless Stick</label>
+    <description>Cook raw meat on a stick but remove, and absolutey discard, the meat, leaving a charred stick to gnaw on.</description>
+    <jobString>Cooking meat on a stick but then absolutely removing the meat.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_MeatlessStick>1</MSS_MeatlessStick>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookMeatlessStickInBulk</defName>
+    <label>Cook Meatless Stick x4</label>
+    <description>Cook raw meat on a stick but remove, and absolutey discard, the meat, leaving a charred stick to gnaw on. Then doing it three more times.</description>
+    <jobString>Cooking meat on a stick but then absolutely removing lots of meat.</jobString>
+    <workAmount>760</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>2.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_MeatlessStick>4</MSS_MeatlessStick>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>96</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <!-- Cook Stickless Meatless Meat on a Stick -->
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookSticklessMeatless</defName>
+    <label>"Cook" Stickless Meatless Meat on a Stick</label>
+    <description>"Cook" a 100% dietary safe alternative to both stickless meat and meatless stick, provides very little nutrition.</description>
+    <jobString>"Cooking" Stickless Meatless Meat on a Stick.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_SticklessMeatlessStick>1</MSS_SticklessMeatlessStick>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookSticklessMeatlessBulk</defName>
+    <label>Cook Stickless Meatless Meat on a Stick x4</label>
+    <description>Cook" a 100% dietary safe alternative to both stickless meat and meatless stick, provides very little nutrition, but in bulk. Useful for bored chefs.</description>
+    <jobString>Wasting valuable working hours.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_SticklessMeatlessStick>4</MSS_SticklessMeatlessStick>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>96</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <!-- Cook Meat on a Meat  -->
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookMeatonaMeat</defName>
+    <label>Cook Meat on a Meat</label>
+    <description>Stuff meat inside of another piece of meat - twice the meat, but less cooking time!</description>
+    <jobString>Stuffing meat into meat.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_MeatonaMeat>1</MSS_MeatonaMeat>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookMeatonaMeatinBulk</defName>
+    <label>Cook Meat on a Meat x4</label>
+    <description>Stuff meat inside of another piece of meat - twice the meat, but less cooking time, but then in bulk - wow, that's a lot of meat!</description>
+    <jobString>Stuff meat inside so much other meat.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>4.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_MeatonaMeat>4</MSS_MeatonaMeat>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>96</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <!-- Stick on a Stick  -->
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookStickonaStick</defName>
+    <label>Cook Stick on a Stick</label>
+    <description>Take a stick, and lay it on a second stick. Congratulations, you now have twice the sticks.</description>
+    <jobString>Playing with bits of wood.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_StickonaStick>1</MSS_StickonaStick>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookStickonaStickinBulk</defName>
+    <label>Cook Stick on a Stick x4</label>
+    <description>Placing a whole bunch of sticks back on other sticks, wasting time and resources.</description>
+    <jobString>Just piling up wood.</jobString>
+    <workAmount>250</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_StickonaStick>4</MSS_StickonaStick>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>96</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+</Defs>

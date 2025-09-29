@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>		
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SentienceCatalyst"]/label</xpath>
+				<value>
+					<label>Draught of Companionship</label>
+				</value>
+			</li>
+		</operations>
+		<operations>		
+			<li Class = "PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SentienceCatalyst"]/description</xpath>
+				<value>
+					<description>A single-use potion given to a tamed animal that increases their mental fortitude and allows them to understand the world to a more human level, reducing theri wildness and increasing their trainable potential.\n\nThe effect does not stack.</description>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
