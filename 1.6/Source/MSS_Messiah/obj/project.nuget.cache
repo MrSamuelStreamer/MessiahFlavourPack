@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UvIyOv/k8Ao=",
+  "success": true,
+  "projectFilePath": "/home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/MessiahFlavourPack/1.6/Source/MSS_Messiah/MSS_Messiah.csproj",
+  "expectedPackageFiles": [
+    "/home/keyz/.nuget/packages/lib.harmony/2.4.1/lib.harmony.2.4.1.nupkg.sha512",
+    "/home/keyz/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/keyz/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "/home/keyz/.nuget/packages/system.data.datasetextensions/4.5.0/system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
