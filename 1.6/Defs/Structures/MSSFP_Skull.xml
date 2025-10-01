@@ -10,6 +10,9 @@
         <tags>
             <li>MSSFP_FallenSkyKnight</li>
         </tags>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <defaultHidden>false</defaultHidden>
     </SitePartDef>
 
     <GenStepDef>
