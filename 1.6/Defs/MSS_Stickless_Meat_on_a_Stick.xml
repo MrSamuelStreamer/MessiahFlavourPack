@@ -111,6 +111,28 @@
     </ingestible>
   </ThingDef>
 
+  <!-- Stick on a Meat -->
+
+  <ThingDef ParentName="MealCookedIngredientless">
+    <defName>MSS_StickonaMeat</defName>
+    <label>Stick on a Meat</label>
+    <description>What if you don't want your meat helplessly penetrated? What if instead you'd prefer that the stick is the one on the outside of the situation? Introducing Stick on a Meat, a revolutionary method of preparing meat, with 100% less penetration!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/StickonaMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>350</WorkToMake>
+      <Nutrition>1.0</Nutrition> <!-- If meat on a stick is 0.9 nutrition then obviously it has to be slightly higher if you're not boring a hole through the middle of the thing -->
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
   <!-- Recipes -->
   <!-- Cook Stickless Meat -->
 
@@ -496,4 +518,82 @@
 			<li>Campfire</li>
 		</recipeUsers>
   </RecipeDef>
+
+  <!-- Stick on a Meat  -->
+
+  <RecipeDef ParentName="CookMealBase">
+      <defName>MSS_CookStickonaMeat</defName>
+      <label>Cook Stick on a Meat</label>
+      <description>A revolutionary method of cooking meat using a stick but without penetrating the meat like some sort of goddamned barbarian.</description>
+      <jobString>Placing sticks around the meat.</jobString>
+      <workAmount>250</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>MeatRaw</li>
+            </categories>
+          </filter>
+          <count>0.5</count>
+        </li>
+      </ingredients>
+      <fixedIngredientFilter>
+        <disallowedCategories>
+          <li>PlantFoodRaw</li>
+          <li>AnimalProductRaw</li>
+        </disallowedCategories>
+      </fixedIngredientFilter>
+      <products>
+        <MSS_StickonaMeat>1</MSS_StickonaMeat>
+      </products>
+      <workSkill>Cooking</workSkill>
+      <displayPriority>96</displayPriority>
+      <recipeUsers>
+        <li>Campfire</li>
+      </recipeUsers>
+    </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+      <defName>MSS_CookStickonaMeatinBulk</defName>
+      <label>Cook Stick on a Meat x4</label>
+      <description>A revolutionary method of cooking a bunch of meat using a bunch of sticks but without penetrating the meat(s) like some sort of goddamned barbarian.</description>
+      <jobString>Placing sticks around a lot of meat.</jobString>
+      <workAmount>450</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>MeatRaw</li>
+            </categories>
+          </filter>
+          <count>2</count>
+        </li>
+      </ingredients>
+      <fixedIngredientFilter>
+        <disallowedCategories>
+          <li>PlantFoodRaw</li>
+          <li>AnimalProductRaw</li>
+        </disallowedCategories>
+      </fixedIngredientFilter>
+      <products>
+        <MSS_StickonaMeat>4</MSS_StickonaMeat>
+      </products>
+      <workSkill>Cooking</workSkill>
+      <displayPriority>96</displayPriority>
+      <recipeUsers>
+        <li>Campfire</li>
+      </recipeUsers>
+    </RecipeDef>
 </Defs>
