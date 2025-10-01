@@ -87,7 +87,7 @@
         <CommonFiles Include="../../../Common/**" />
         <CompatibilityFiles Include="../../../Compatibility/**" />
         <ExtraFiles Include="../../../LoadFolders.xml;../../../LICENSE;../../../README.md" />
-        <ReleaseFiles Remove="..\..\..\Compatability\**" />
+        <ReleaseFiles Remove="..\..\..\Compatibility\**" />
         <ReleaseFiles Update="..\..\Defs\MSSFP_Skull.xml">
           <Link>MessiahFlavourPack\1.6\Defs\MSSFP_Skull.xml</Link>
         </ReleaseFiles>

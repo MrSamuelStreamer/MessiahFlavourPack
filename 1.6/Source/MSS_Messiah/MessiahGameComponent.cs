@@ -1,3 +1,4 @@
+using System.Linq;
 using RimWorld;
 using RimWorld.Planet;
 using Verse;
@@ -14,15 +15,18 @@ public class MessiahGameComponent(Game game) : GameComponent
 
         if (hasSkullSites) return;
 
-        int sitesToGen = Rand.Range(1, 5);
-        for(int i = 0; i < sitesToGen; i++)
+        if (!Find.FactionManager.AllFactionsVisible.Any())
         {
-            Faction faction = Find.FactionManager.AllFactionsVisible.RandomElement();
-            PlanetLayer layer = Find.WorldGrid.Surface;
-            PlanetTile tile = TileFinder.RandomSettlementTileFor(layer, faction);
-            ModLog.Debug($"Making site MSSFP_FallenSkyKnight at {tile}");
-            Site site = SiteMaker.MakeSite(MSS_MessiahDefOf.MSSFP_FallenSkyKnight, tile, faction);
-            Find.WorldObjects.Add(site);
+            ModLog.Warn("No visible factions available for site generation");
+            return;
         }
+
+        Faction faction = Find.FactionManager.AllFactionsVisible.RandomElement();
+        PlanetLayer layer = Find.WorldGrid.Surface;
+        PlanetTile tile = TileFinder.RandomSettlementTileFor(layer, faction);
+
+        ModLog.Debug($"Making site MSSFP_FallenSkyKnight at {tile}");
+        Site site = SiteMaker.MakeSite(MSS_MessiahDefOf.MSSFP_FallenSkyKnight, tile, faction);
+        Find.WorldObjects.Add(site);
     }
 }
