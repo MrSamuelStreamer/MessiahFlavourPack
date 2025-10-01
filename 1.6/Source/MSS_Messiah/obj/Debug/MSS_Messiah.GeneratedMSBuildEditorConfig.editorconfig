@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = MSS_Messiah
-build_property.ProjectDir = /home/keyz/.local/share/Steam/steamapps/common/RimWorld/Mods/MessiahFlavourPack/1.6/Source/MSS_Messiah/
+build_property.ProjectDir = /Users/keyz/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/MessiahFlavourPack/1.6/Source/MSS_Messiah/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
