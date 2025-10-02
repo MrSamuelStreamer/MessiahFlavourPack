@@ -133,6 +133,22 @@
     </ingestible>
   </ThingDef>
 
+  <!-- Stick on a Meat -->
+
+  <ThingDef ParentName="MealLavishBase">
+    <defName>MSS_LavishMeatonaStick</defName>
+    <label>Lavish Meat on a Stick</label>
+    <graphicData>
+      <texPath>Things/Item/Meal/LavishMeatonaStick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+    <li Class="CompProperties_Ingredients">
+      <noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+    </li>
+    </comps>
+  </ThingDef>
+
   <!-- Recipes -->
   <!-- Cook Stickless Meat -->
 
@@ -596,4 +612,36 @@
         <li>Campfire</li>
       </recipeUsers>
     </RecipeDef>
+
+    <!-- Lavish Meat on a Stick  -->
+    
+    <RecipeDef ParentName="CookMealLavishBase">
+    <defName>MSS_CookLavishMeatonaStick</defName>
+    <label>Cook Lavish Meat on a Stick</label>
+    <description>Only spread as rumour among the highest echelon of the culinary world, the Lavish Meat on a Stick takes the rawest simplicities of cooking some meat on a stick and combines it with the haute cuisine of the finest Glitterworld aristocracy. It was believed that no chef was capable of combining these two elements in a way that allowed them to coexist harmoniously the no man's land that is luxury and meat on a stick, but through luck, or perhaps sheer willpower, this very recipe could hold the secrets to gastronomic ascension.</description>
+    <jobString>Creating a miracle.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_LavishMeatonaStick>1</MSS_LavishMeatonaStick>
+    </products>
+    <displayPriority>1200</displayPriority>
+    <recipeUsers>
+        <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
 </Defs>
