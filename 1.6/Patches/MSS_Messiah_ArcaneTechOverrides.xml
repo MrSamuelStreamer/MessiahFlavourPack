@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="DArcaneTechnology.OverrideResearch">
+	<Overrides>
+		<li>
+			<thingDef>MeleeWeapon_MonoSwordBladelink</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+		<li>
+			<thingDef>MeleeWeapon_ZeusHammerBladelink</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+		<li>
+			<thingDef>MeleeWeapon_PlasmaSwordBladelink</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+		<li>
+			<thingDef>MeleeWeapon_MonoSword</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+		<li>
+			<thingDef>MeleeWeapon_Zeushammer</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+		<li>
+			<thingDef>MeleeWeapon_PlasmaSword</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+		<li>
+			<thingDef>MeleeWeapon_PsyfocusStaff</thingDef>
+			<researchDefName>None</researchDefName>
+		</li>
+	</Overrides>
+</Operation>
+
+</Patch>
