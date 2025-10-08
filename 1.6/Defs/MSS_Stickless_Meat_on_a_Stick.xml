@@ -149,6 +149,47 @@
     </comps>
   </ThingDef>
 
+  <!-- Baby Food on a Stick -->
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>MSS_BabyFoodonaStick</defName>
+    <label>Baby Food on a Stick</label>
+    <description>A bland vegetarian mash, but now with added length of a stick for more long-range baby food delivery. Babies love it, but children and adults will be upset if they're forced to eat it. Slight choking hazard.</description>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Meal/BabyFoodonaStick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.25</MarketValue>
+      <Mass>0.015</Mass>
+      <Nutrition>0.06</Nutrition> <!-- 0.01 extra nutrition due to stick consumption -->
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealTerrible</preferability>
+      <tasteThought>AteBabyFood</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <babiesCanIngest>true</babiesCanIngest>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <performMergeCompatibilityChecks>false</performMergeCompatibilityChecks>
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <allowedArchonexusCount>500</allowedArchonexusCount> <!-- Exceedingly important, do NOT remove -->
+  </ThingDef>
+
   <!-- Recipes -->
   <!-- Cook Stickless Meat -->
 
@@ -640,6 +681,51 @@
       <MSS_LavishMeatonaStick>1</MSS_LavishMeatonaStick>
     </products>
     <displayPriority>1200</displayPriority>
+    <recipeUsers>
+        <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- Cook Baby Food on a Stick -->
+
+  <RecipeDef>
+    <defName>MSS_CookBabyFoodonaStick</defName>
+    <label>Make Baby Food on a Stick</label>
+    <description>Make baby food, a nutritionally balanced vegetarian mash for babies, then take this carefully prepared dish and mount on a stick for long-distace baby nutrition. While easy to make in large quantities, only babies appreciate its bland taste and mushy texture. Possible risk of choking.</description>
+    <jobString>Making baby food on a stick for some reason.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>vegetarian ingredients</customSummary>
+          <categories>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <products>
+      <MSS_BabyFoodonaStick>12</MSS_BabyFoodonaStick>
+    </products>
+    <displayPriority>1430</displayPriority>
     <recipeUsers>
         <li>Campfire</li>
     </recipeUsers>
