@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldBattleAxe"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireBattleAxe"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyBattleAxe"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldBow"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireBow"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyBow"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldDagger"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireDagger"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyDagger"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldHalberd"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireHalberd"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyHalberd"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldLongsword"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireLongsword"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyLongsword"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldRing"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireRing"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyRing"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldSpear"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireSpear"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubySpear"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldStaff"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireStaff"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyStaff"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldWand"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireWand"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyWand"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_EmeraldWarHammer"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_SapphireWarHammer"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RF_RubyWarHammer"]/comps/li[@Class="RimFantasy.CompProperties_GlowerStuffable"]</xpath>
+    </Operation>
+</Patch>

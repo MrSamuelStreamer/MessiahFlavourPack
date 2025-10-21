@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- Mystery Meat -->
+
+  <ThingDef ParentName="MealCooked">
+    <defName>MSS_MysteryMeat</defName>
+    <label>Mystery Meat on a Stick</label>
+    <description>A mysterious meat skewered onto a stick, too long to be pork. Allegedly goes well with some fava beans and a nice Chianti.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/MysteryMeat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <WorkToMake>190</WorkToMake>
+      <Nutrition>0.75</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+    </ingestible>
+  </ThingDef>
+
+  <!-- Dragon Meat -->
+
+  <ThingDef ParentName="MealCooked">
+    <defName>MSS_DragonFeedonaStick</defName>
+    <label>Dragon Feed on a Stick</label>
+    <description>Enormous amounts of meat skewered onto a stick. Intended for feeding enormous beasts without any waste. Occasionally trainers will enchant the meat with magic causing the any creature that eats the meat to remain in the same spot, especially useful for large and dangerous dragons.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/DragonFeedonaStick</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>455</WorkToMake>
+      <Nutrition>2.75</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.15</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Anesthetic</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
   <!-- Stickless Meat -->
 
   <ThingDef ParentName="MealCookedIngredientless">
@@ -191,6 +245,70 @@
   </ThingDef>
 
   <!-- Recipes -->
+
+  <!-- Cook Mystery Meat -->
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookMysteryMeat</defName>
+    <label>Cook Mystery Meat on a Stick</label>
+    <description>Cook a mysterious pork-like meat on a stick - people won't mind, they'll eat anything off of a stick!</description>
+    <jobString>Cooking atrocities.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Human</li>
+					</thingDefs>
+				</filter>
+				<count>1.0</count>
+			</li>
+    </ingredients>
+    <products>
+      <MSS_MysteryMeat>1</MSS_MysteryMeat>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
+    <RecipeDef ParentName="CookMealBase">
+    <defName>MSS_CookMysteryMeatinBulk</defName>
+    <label>Cook Mystery Meat on a Stick x4</label>
+    <description>Cook a mysterious pork-like meat on a stick - people won't mind, they'll eat anything off of a stick, especially when there's lots of it!</description>
+    <jobString>Cooking tremendous numbers of atrocities.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Human</li>
+					</thingDefs>
+				</filter>
+				<count>4.0</count>
+			</li>
+    </ingredients>
+    <products>
+      <MSS_MysteryMeat>4</MSS_MysteryMeat>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>95</displayPriority>
+    <recipeUsers>
+			<li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+
   <!-- Cook Stickless Meat -->
 
   <RecipeDef ParentName="CookMealBase">
@@ -726,6 +844,44 @@
       <MSS_BabyFoodonaStick>12</MSS_BabyFoodonaStick>
     </products>
     <displayPriority>1430</displayPriority>
+    <recipeUsers>
+        <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- Cook Baby Food on a Stick -->
+
+  <RecipeDef>
+    <defName>MSS_CookDragonFoodonaStick</defName>
+    <label>Roast Dragon Food on a Stick</label>
+    <description>Make Dragon Food on a Stick - an enormous heap of offal and offcuts that colonists won't enjoy eating. Dragon meats are enchanted with magic to assist trainers with containing and controlling wild beasts.</description>
+    <jobString>Making Dragon food on a stick.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>4.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <disallowedCategories>
+        <li>PlantFoodRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <MSS_DragonFeedonaStick>1</MSS_DragonFeedonaStick>
+    </products>
+    <displayPriority>1200</displayPriority>
     <recipeUsers>
         <li>Campfire</li>
     </recipeUsers>
