@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="RB_Fireplace"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+        <xpath>/Defs/ThingDef[@Name="RB_Fireplace"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
         <value>
             <li Class="CompProperties_Refuelable">  <!-- Cannot remove outright, causes ticking errors -->
 				<fuelConsumptionRate>0.01</fuelConsumptionRate>
